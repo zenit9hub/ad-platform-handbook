@@ -84,7 +84,7 @@ export default withMermaid(
               text: 'Trust · Web3 실험실',
               items: [
                 { text: '개요', link: '/lab/' },
-                { text: '광고플랫폼에서 SSI와 Blockchain으로 실험할 수 있는 것', link: '/lab/ssi-and-blockchain' }
+                { text: '광고플랫폼에서 SSI, Blockchain, AI Agent로 실험할 수 있는 것', link: '/lab/ssi-and-blockchain' }
               ]
             },
             {
@@ -183,7 +183,7 @@ export default withMermaid(
               text: 'Trust · Web3 Lab',
               items: [
                 { text: 'Overview', link: '/en/lab/' },
-                { text: 'What SSI and Blockchain Can Be Used to Experiment With in Ad Platforms', link: '/en/lab/ssi-and-blockchain' }
+                { text: 'What SSI, Blockchain, and AI Agents Can Be Used to Experiment With in Ad Platforms', link: '/en/lab/ssi-and-blockchain' }
               ]
             },
             {
