@@ -1,0 +1,16 @@
+{
+  "name": "ad-platform-handbook",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Ad Platform Handbook - Standards, Trust, and Web3",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "mermaid": "11.14.0",
+    "vitepress": "1.6.4",
+    "vitepress-plugin-mermaid": "2.0.17"
+  }
+}
