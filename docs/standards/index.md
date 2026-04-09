@@ -1,19 +1,21 @@
-# 표준
+---
+title: "표준과 프로토콜"
+description: "광고플랫폼의 공통 언어 역할을 하는 표준과 프로토콜을 다룬다."
+---
 
-이 섹션은 광고플랫폼이 어떻게 통신하고, 검증하며, 신뢰를 형성하는지 정의하는 주요 표준을 다룹니다.
+# 표준과 프로토콜 카테고리 인덱스
 
-## 포함 주제
+## 카테고리 목적
 
-- ads.txt와 app-ads.txt
-- OpenRTB
-- VAST
-- OMID
+이 카테고리는 광고플랫폼에서 공통 언어 역할을 하는 표준과 프로토콜을 다룬다. `누가 팔 수 있는가`, `어떤 요청 객체로 거래가 진행되는가`, `어떤 필드가 핵심인가`를 이해하는 것이 목표다.
 
-## 문서
+## 현재 문서
 
-- [ads.txt와 app-ads.txt 이해](/standards/ads-txt-and-app-ads-txt)
+1. [ads.txt와 app-ads.txt 이해](/standards/ads-txt-and-app-ads-txt)
+2. [OpenRTB는 무엇인가](/standards/openrtb-overview)
+3. [site, app, imp 객체 읽는 법](/standards/site-app-imp)
 
-## 탐색 안내
+## 후속 카테고리
 
-- 사이드바에서 기초 개념 문서와 `신뢰 + Web3` 카테고리를 함께 볼 수 있습니다.
-- 이 섹션 다음에는 [신뢰 + Web3](/trust/) 카테고리로 이어서 읽는 흐름을 권장합니다.
+- [전달과 렌더링](/delivery/)
+- [측정 · 검증 · 신뢰](/measurement/)

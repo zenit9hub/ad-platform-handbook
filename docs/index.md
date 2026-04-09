@@ -13,16 +13,24 @@ hero:
       text: 표준 살펴보기
       link: /standards/
     - theme: alt
-      text: 신뢰 + Web3 보기
-      link: /trust/
+      text: 측정 · 신뢰 보기
+      link: /measurement/
 
 features:
   - title: 기초 개념
     details: 광고플랫폼 생태계, 주요 플레이어의 역할, ad request와 bid request의 차이부터 이해합니다.
   - title: 표준
-    details: OpenRTB, VAST, ads.txt, app-ads.txt, OMID 등 현대 광고플랫폼의 핵심 표준을 학습합니다.
-  - title: 신뢰 + Web3
-    details: verification, discrepancy, reconciliation, 공급 경로 투명성, provenance와 차세대 신뢰 인프라 관점을 함께 읽습니다.
+    details: OpenRTB, ads.txt, app-ads.txt와 핵심 객체 구조 같은 공통 프로토콜을 학습합니다.
+  - title: 전달과 렌더링
+    details: adm, creative handoff, SDK, player, tag가 어떤 역할을 맡는지 이해합니다.
+  - title: 측정 · 신뢰
+    details: discrepancy, reconciliation, 공급 경로 투명성, trust layer 관점을 함께 읽습니다.
+  - title: 채널과 포맷
+    details: 웹, 앱, CTV가 같은 표준 위에서 어떻게 다르게 동작하는지 채널별로 비교합니다.
+  - title: 구현 패턴
+    details: request, auction, delivery, runtime event 로그를 어떤 계층으로 설계해야 하는지 정리합니다.
+  - title: 레퍼런스
+    details: 용어, 객체, 필드, 파라미터를 빠르게 찾아볼 수 있는 조회형 문서를 누적합니다.
 ---
 
 ## 이 사이트에 대해
@@ -32,8 +40,10 @@ features:
 ## 추천 학습 경로
 
 1. 먼저 기초 개념부터 읽습니다.
-2. 이후 OpenRTB, VAST 같은 표준으로 이동합니다.
-3. 다음으로 신뢰, 검증, reconciliation, Web3 확장 관점으로 이어갑니다.
+2. 이후 OpenRTB와 표준 객체 구조를 읽습니다.
+3. 다음으로 adm, 렌더링, runtime 실행 주체를 이해합니다.
+4. 이어서 측정, 신뢰, reconciliation, 공급 경로 해석을 읽습니다.
+5. 마지막으로 채널별 차이와 구현 패턴, 레퍼런스 문서로 확장합니다.
 
 ## 탐색 방식
 

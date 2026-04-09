@@ -1,22 +1,22 @@
-# Fundamentals
+---
+title: "Fundamentals"
+description: "Covers the minimum conceptual structure needed to understand ad platforms."
+---
 
-Start here if you want a structured introduction to how modern ad platforms work.
+# Fundamentals Category Index
 
-## Included Topics
+## Purpose
 
-- The overall ad platform ecosystem
-- The roles of publishers, SSPs, DSPs, and exchanges
-- The difference between ad requests and bid requests
-- Publisher onboarding and placement registration
+This category introduces the minimum conceptual structure needed to understand how ad platforms work.
 
-## Documents
+## Recommended Reading Order
 
-- [Ad Platform Ecosystem Overview](/en/fundamentals/ecosystem-overview)
-- [Roles of Publisher, SSP, DSP, and Exchange](/en/fundamentals/roles)
-- [Ad Request vs Bid Request](/en/fundamentals/ad-request-vs-bid-request)
-- [Publisher Onboarding and Placement Registration](/en/fundamentals/publisher-onboarding)
+1. [Ad Platform Ecosystem Overview](/en/fundamentals/ecosystem-overview)
+2. [Roles of Publisher, SSP, DSP, and Exchange](/en/fundamentals/roles)
+3. [Ad Request vs Bid Request](/en/fundamentals/ad-request-vs-bid-request)
+4. [Publisher Onboarding and Placement Registration](/en/fundamentals/publisher-onboarding)
 
-## Navigation Notes
+## Next Categories
 
-- The sidebar keeps `Standards` and `Trust + Web3` visible while you read.
-- After this section, the recommended next step is [Standards](/en/standards/).
+- [Standards and Protocols](/en/standards/)
+- [Measurement, Verification, and Trust](/en/measurement/)

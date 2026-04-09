@@ -49,4 +49,4 @@ flowchart LR
 ## Related Documents
 
 - [Ad Request vs Bid Request](/en/fundamentals/ad-request-vs-bid-request)
-- [Understanding ads.txt and app-ads.txt](/en/standards/ads-txt-and-app-ads-txt)
+- [../20. Standards and Protocols/01. Understanding ads.txt and app-ads.txt](../20.%20Standards%20and%20Protocols/01.%20Understanding%20ads.txt%20and%20app-ads.txt.md)

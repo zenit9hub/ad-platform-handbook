@@ -13,16 +13,24 @@ hero:
       text: Explore Standards
       link: /en/standards/
     - theme: alt
-      text: Explore Trust + Web3
-      link: /en/trust/
+      text: Explore Measurement
+      link: /en/measurement/
 
 features:
   - title: Fundamentals
     details: Start with the ecosystem, the roles of core participants, and the difference between ad requests and bid requests.
   - title: Standards
-    details: Learn the core standards behind modern ad platforms including OpenRTB, VAST, ads.txt, app-ads.txt, and OMID.
-  - title: Trust + Web3
-    details: Explore verification, discrepancy, reconciliation, supply path transparency, provenance, and emerging trust infrastructure.
+    details: Learn shared protocols such as OpenRTB, ads.txt, app-ads.txt, and the core object structure behind auctions.
+  - title: Delivery
+    details: Understand creative handoff, the adm field, and the runtime roles of SDKs, players, and tags.
+  - title: Measurement
+    details: Explore discrepancy, reconciliation, supply path transparency, and trust-layer questions.
+  - title: Channels
+    details: Compare how web, app, and CTV differ in runtime ownership, identifiers, and measurement logic.
+  - title: Implementation
+    details: Connect the concepts to request, auction, delivery, and client-event logging patterns.
+  - title: Reference
+    details: Use lookup-style content for terminology, objects, fields, and other recurring definitions.
 ---
 
 ## About This Site
@@ -32,8 +40,10 @@ This site is designed to improve practical understanding of ad platform architec
 ## Recommended Reading Path
 
 1. Start with the fundamentals.
-2. Move into standards such as OpenRTB and VAST.
-3. Continue into trust, verification, reconciliation, and Web3-oriented extension points.
+2. Move into standards and shared protocol structures.
+3. Continue into creative delivery and runtime rendering.
+4. Then expand into measurement, trust, reconciliation, and supply-path interpretation.
+5. Finally move into channel differences, implementation patterns, and reference material.
 
 ## Navigation Model
 

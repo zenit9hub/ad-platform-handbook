@@ -1,19 +1,21 @@
-# Standards
+---
+title: "Standards and Protocols"
+description: "Covers the standards and protocol structures used across ad platforms."
+---
 
-This section covers the standards that define how ad platforms communicate, verify, and establish trust.
+# Standards and Protocols Category Index
 
-## Included Topics
+## Purpose
 
-- ads.txt and app-ads.txt
-- OpenRTB
-- VAST
-- OMID
+This category explains the standards and protocol structures that act as shared language across ad platforms.
 
-## Documents
+## Current Documents
 
-- [Understanding ads.txt and app-ads.txt](/en/standards/ads-txt-and-app-ads-txt)
+1. [Understanding ads.txt and app-ads.txt](/en/standards/ads-txt-and-app-ads-txt)
+2. [What Is OpenRTB](/en/standards/openrtb-overview)
+3. [How to Read site, app, and imp](/en/standards/site-app-imp)
 
-## Navigation Notes
+## Next Categories
 
-- The sidebar keeps `Fundamentals` and `Trust + Web3` visible across the site.
-- After this section, the recommended next step is [Trust + Web3](/en/trust/).
+- [Delivery and Rendering](/en/delivery/)
+- [Measurement, Verification, and Trust](/en/measurement/)

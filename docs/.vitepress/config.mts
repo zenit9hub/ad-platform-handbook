@@ -22,7 +22,11 @@ export default withMermaid(
             { text: '홈', link: '/' },
             { text: '기초 개념', link: '/fundamentals/' },
             { text: '표준', link: '/standards/' },
-            { text: '신뢰 + Web3', link: '/trust/' }
+            { text: '전달과 렌더링', link: '/delivery/' },
+            { text: '측정 · 신뢰', link: '/measurement/' },
+            { text: '채널과 포맷', link: '/channels/' },
+            { text: '구현 패턴', link: '/implementation/' },
+            { text: '레퍼런스', link: '/reference/' }
           ],
           sidebar: [
             {
@@ -39,12 +43,48 @@ export default withMermaid(
               text: '표준',
               items: [
                 { text: '개요', link: '/standards/' },
-                { text: 'ads.txt와 app-ads.txt 이해', link: '/standards/ads-txt-and-app-ads-txt' }
+                { text: 'ads.txt와 app-ads.txt 이해', link: '/standards/ads-txt-and-app-ads-txt' },
+                { text: 'OpenRTB는 무엇인가', link: '/standards/openrtb-overview' },
+                { text: 'site, app, imp 객체 읽는 법', link: '/standards/site-app-imp' }
               ]
             },
             {
-              text: '신뢰 + Web3',
-              items: [{ text: '개요', link: '/trust/' }]
+              text: '전달과 렌더링',
+              items: [
+                { text: '개요', link: '/delivery/' },
+                { text: 'adm 필드는 무엇을 담는가', link: '/delivery/adm-field' }
+              ]
+            },
+            {
+              text: '측정 · 신뢰',
+              items: [
+                { text: '개요', link: '/measurement/' },
+                { text: '신뢰 + Web3 개요', link: '/trust/' },
+                { text: 'TrackingEvents, impression, click, quartile 이해', link: '/measurement/tracking-events' },
+                { text: 'Discrepancy와 Reconciliation 개요', link: '/measurement/discrepancy-and-reconciliation' },
+                { text: 'sellers.json과 schain 이해', link: '/measurement/sellers-json-and-schain' }
+              ]
+            },
+            {
+              text: '채널과 포맷',
+              items: [
+                { text: '개요', link: '/channels/' },
+                { text: '웹, 앱, CTV는 어떻게 다른가', link: '/channels/web-app-ctv' }
+              ]
+            },
+            {
+              text: '구현 패턴',
+              items: [
+                { text: '개요', link: '/implementation/' },
+                { text: '이벤트 로그 스키마 설계 기초', link: '/implementation/event-log-schema' }
+              ]
+            },
+            {
+              text: '레퍼런스',
+              items: [
+                { text: '개요', link: '/reference/' },
+                { text: '광고플랫폼 용어사전', link: '/reference/glossary' }
+              ]
             }
           ],
           outlineTitle: '이 페이지에서',
@@ -73,7 +113,11 @@ export default withMermaid(
             { text: 'Home', link: '/en/' },
             { text: 'Fundamentals', link: '/en/fundamentals/' },
             { text: 'Standards', link: '/en/standards/' },
-            { text: 'Trust + Web3', link: '/en/trust/' }
+            { text: 'Delivery', link: '/en/delivery/' },
+            { text: 'Measurement', link: '/en/measurement/' },
+            { text: 'Channels', link: '/en/channels/' },
+            { text: 'Implementation', link: '/en/implementation/' },
+            { text: 'Reference', link: '/en/reference/' }
           ],
           sidebar: [
             {
@@ -90,12 +134,48 @@ export default withMermaid(
               text: 'Standards',
               items: [
                 { text: 'Overview', link: '/en/standards/' },
-                { text: 'Understanding ads.txt and app-ads.txt', link: '/en/standards/ads-txt-and-app-ads-txt' }
+                { text: 'Understanding ads.txt and app-ads.txt', link: '/en/standards/ads-txt-and-app-ads-txt' },
+                { text: 'What Is OpenRTB', link: '/en/standards/openrtb-overview' },
+                { text: 'How to Read site, app, and imp', link: '/en/standards/site-app-imp' }
               ]
             },
             {
-              text: 'Trust + Web3',
-              items: [{ text: 'Overview', link: '/en/trust/' }]
+              text: 'Delivery',
+              items: [
+                { text: 'Overview', link: '/en/delivery/' },
+                { text: 'What Goes in the adm Field', link: '/en/delivery/adm-field' }
+              ]
+            },
+            {
+              text: 'Measurement',
+              items: [
+                { text: 'Overview', link: '/en/measurement/' },
+                { text: 'Trust + Web3 Overview', link: '/en/trust/' },
+                { text: 'Understanding TrackingEvents, impression, click, and quartile', link: '/en/measurement/tracking-events' },
+                { text: 'Introduction to Discrepancy and Reconciliation', link: '/en/measurement/discrepancy-and-reconciliation' },
+                { text: 'Understanding sellers.json and schain', link: '/en/measurement/sellers-json-and-schain' }
+              ]
+            },
+            {
+              text: 'Channels',
+              items: [
+                { text: 'Overview', link: '/en/channels/' },
+                { text: 'How Web, App, and CTV Differ', link: '/en/channels/web-app-ctv' }
+              ]
+            },
+            {
+              text: 'Implementation',
+              items: [
+                { text: 'Overview', link: '/en/implementation/' },
+                { text: 'Event Log Schema Basics', link: '/en/implementation/event-log-schema' }
+              ]
+            },
+            {
+              text: 'Reference',
+              items: [
+                { text: 'Overview', link: '/en/reference/' },
+                { text: 'Ad Platform Glossary', link: '/en/reference/glossary' }
+              ]
             }
           ]
         }

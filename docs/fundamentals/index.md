@@ -1,22 +1,22 @@
-# 기초 개념
+---
+title: "기초 개념"
+description: "광고플랫폼을 처음 이해하는 데 필요한 기본 구조를 다룬다."
+---
 
-현대 광고플랫폼이 어떻게 동작하는지 구조적으로 이해하고 싶다면 이 섹션부터 시작하면 됩니다.
+# 기초 개념 카테고리 인덱스
 
-## 포함 주제
+## 카테고리 목적
 
-- 광고플랫폼 전체 생태계
-- 퍼블리셔, SSP, DSP, Exchange의 역할
-- 광고 요청과 bid request의 차이
-- 퍼블리셔 온보딩과 placement 등록
+이 카테고리는 광고플랫폼을 처음 이해하는 데 필요한 기본 구조를 다룬다. 광고 생태계의 참여자, 요청 흐름, 온보딩 구조를 순서대로 읽을 수 있도록 구성한다.
 
-## 문서
+## 권장 읽기 순서
 
-- [광고플랫폼 생태계 한눈에 보기](/fundamentals/ecosystem-overview)
-- [퍼블리셔, SSP, DSP, Exchange의 역할](/fundamentals/roles)
-- [광고 요청과 Bid Request의 차이](/fundamentals/ad-request-vs-bid-request)
-- [퍼블리셔 온보딩과 지면 등록](/fundamentals/publisher-onboarding)
+1. [광고플랫폼 생태계 한눈에 보기](/fundamentals/ecosystem-overview)
+2. [퍼블리셔, SSP, DSP, Exchange의 역할](/fundamentals/roles)
+3. [광고 요청과 Bid Request의 차이](/fundamentals/ad-request-vs-bid-request)
+4. [퍼블리셔 온보딩과 지면 등록](/fundamentals/publisher-onboarding)
 
-## 탐색 안내
+## 후속 카테고리
 
-- 사이드바에서 `표준`, `신뢰 + Web3` 카테고리로 바로 이동할 수 있습니다.
-- 기초 개념을 읽은 뒤에는 [표준](/standards/) 섹션으로 넘어가는 흐름을 권장합니다.
+- [표준과 프로토콜](/standards/)
+- [측정 · 검증 · 신뢰](/measurement/)
