@@ -4,8 +4,8 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 export default withMermaid(
   defineConfig({
     title: 'Ad Platform Handbook',
-    description: 'Standards, Trust, and Web3',
-    lang: 'en-US',
+    description: '표준, 신뢰, 그리고 Web3',
+    lang: 'ko-KR',
     base: '/ad-platform-handbook/',
     head: [['meta', { name: 'theme-color', content: '#0f766e' }]],
     cleanUrls: true,
@@ -16,6 +16,7 @@ export default withMermaid(
       root: {
         label: '한국어',
         lang: 'ko-KR',
+        description: '표준, 신뢰, 그리고 Web3',
         themeConfig: {
           nav: [
             { text: '홈', link: '/' },
@@ -65,6 +66,7 @@ export default withMermaid(
         label: 'English',
         lang: 'en-US',
         link: '/en/',
+        description: 'Standards, Trust, and Web3',
         themeConfig: {
           nav: [
             { text: 'Home', link: '/en/' },
