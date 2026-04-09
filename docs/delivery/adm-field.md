@@ -43,7 +43,10 @@ flowchart LR
 - click / impression tracker
 - verification tag
 
-## 후속 연결 문서
+## 선행 개념
 
 - [OpenRTB는 무엇인가](/standards/openrtb-overview)
+
+## 다음으로 읽을 문서
+
 - [Discrepancy와 Reconciliation 개요](/measurement/discrepancy-and-reconciliation)

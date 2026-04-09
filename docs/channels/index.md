@@ -18,6 +18,10 @@ description: "웹, 앱, CTV와 주요 광고 포맷 차이를 다룬다."
 - 앱과 CTV의 차이
 - display, video, native, audio 포맷 구분
 
-## 후속 카테고리
+## 다음 카테고리
 
 - [구현 패턴](/implementation/)
+
+## 이후 확장 카테고리
+
+- [레퍼런스](/reference/)

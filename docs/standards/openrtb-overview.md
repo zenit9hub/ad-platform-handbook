@@ -53,8 +53,11 @@ flowchart LR
 - `user`
 - `regs`
 
-## 후속 연결 문서
+## 다음으로 읽을 문서
 
 - [site, app, imp 객체 읽는 법](/standards/site-app-imp)
-- [ads.txt와 app-ads.txt 이해](/standards/ads-txt-and-app-ads-txt)
 - [adm 필드는 무엇을 담는가](/delivery/adm-field)
+
+## 함께 읽을 문서
+
+- [ads.txt와 app-ads.txt 이해](/standards/ads-txt-and-app-ads-txt)

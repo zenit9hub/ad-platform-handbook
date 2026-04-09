@@ -54,7 +54,10 @@ flowchart LR
 - DSP는 광고가 실제로 렌더링되는 시스템이 아니다.
 - Exchange는 항상 별도 사업자로 분리되어 있는 것은 아니다.
 
-## 후속 연결 문서
+## 선행 문서
 
 - [광고플랫폼 생태계 한눈에 보기](/fundamentals/ecosystem-overview)
+
+## 다음으로 읽을 문서
+
 - [광고 요청과 Bid Request의 차이](/fundamentals/ad-request-vs-bid-request)

@@ -49,7 +49,7 @@ flowchart LR
 - 웹에서는 `SDK`보다 `tag` 또는 `script`라는 표현이 더 자연스러운 경우가 많다.
 - 앱과 CTV에서는 SDK가 광고 요청 주체가 되는 경우가 많다.
 
-## 후속 연결 문서
+## 다음으로 읽을 문서
 
 - [퍼블리셔 온보딩과 지면 등록](/fundamentals/publisher-onboarding)
 - [ads.txt와 app-ads.txt 이해](/standards/ads-txt-and-app-ads-txt)

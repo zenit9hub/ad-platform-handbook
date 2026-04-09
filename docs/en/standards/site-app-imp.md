@@ -42,7 +42,10 @@ flowchart TD
 - represents app or CTV app context
 - connects to bundle, store URL, and app publisher information
 
-## Related Documents
+## Prerequisite Concept
 
 - [What Is OpenRTB](/en/standards/openrtb-overview)
+
+## Related Documents
+
 - [Understanding ads.txt and app-ads.txt](/en/standards/ads-txt-and-app-ads-txt)

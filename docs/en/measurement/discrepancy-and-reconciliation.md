@@ -45,7 +45,10 @@ flowchart LR
 - where measurement vendor data enters the flow
 - deduplication and idempotency rules
 
-## Related Documents
+## Prerequisite Concept
 
 - [Understanding Ad Platforms Through Trust and Web3](/en/trust/)
+
+## Next Document
+
 - [Understanding sellers.json and schain](/en/measurement/sellers-json-and-schain)

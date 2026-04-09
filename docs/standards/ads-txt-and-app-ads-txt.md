@@ -46,7 +46,10 @@ flowchart TD
 - 이것만으로 모든 사기나 품질 문제를 해결하지는 못한다.
 - 실제 운영에서는 sellers.json, schain, 로그 검증 같은 추가 장치가 함께 필요하다.
 
-## 후속 연결 문서
+## 선행 문서
 
 - [퍼블리셔 온보딩과 지면 등록](/fundamentals/publisher-onboarding)
-- `sellers.json과 schain` 문서 초안 예정
+
+## 다음으로 읽을 문서
+
+- [sellers.json과 schain 이해](/measurement/sellers-json-and-schain)

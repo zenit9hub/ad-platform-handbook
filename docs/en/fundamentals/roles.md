@@ -54,7 +54,10 @@ flowchart LR
 - A DSP is not usually the runtime that renders the ad.
 - An exchange is not always a completely separate business entity.
 
-## Related Documents
+## Prerequisite Document
 
 - [Ad Platform Ecosystem Overview](/en/fundamentals/ecosystem-overview)
+
+## Next Document
+
 - [Ad Request vs Bid Request](/en/fundamentals/ad-request-vs-bid-request)

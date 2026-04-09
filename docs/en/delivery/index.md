@@ -13,7 +13,10 @@ This category explains how creatives are delivered after the auction and which r
 
 1. [What Goes in the adm Field](/en/delivery/adm-field)
 
-## Next Categories
+## Prerequisite Category
 
 - [Standards and Protocols](/en/standards/)
+
+## Next Category
+
 - [Measurement, Verification, and Trust](/en/measurement/)

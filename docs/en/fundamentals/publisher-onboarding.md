@@ -46,7 +46,10 @@ flowchart LR
 - `ads.txt` and `app-ads.txt` disclose authorized selling relationships.
 - Actual site, app, and placement registration still happens in SSP onboarding and operations.
 
-## Related Documents
+## Prerequisite Document
 
 - [Ad Request vs Bid Request](/en/fundamentals/ad-request-vs-bid-request)
-- [../20. Standards and Protocols/01. Understanding ads.txt and app-ads.txt](../20.%20Standards%20and%20Protocols/01.%20Understanding%20ads.txt%20and%20app-ads.txt.md)
+
+## Next Document
+
+- [Understanding ads.txt and app-ads.txt](/en/standards/ads-txt-and-app-ads-txt)

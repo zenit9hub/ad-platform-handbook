@@ -43,7 +43,6 @@ flowchart LR
 - ads.txt alone may not be enough to explain seller identity and supply path context
 - sellers.json and schain help extend that interpretation
 
-## Related Documents
-
+## Prerequisite Concepts
 - [Understanding Ad Platforms Through Trust and Web3](/en/trust/)
 - [Understanding ads.txt and app-ads.txt](/en/standards/ads-txt-and-app-ads-txt)

@@ -43,7 +43,6 @@ flowchart LR
 - ads.txt만으로는 seller identity와 경로 해석이 충분하지 않을 수 있다.
 - sellers.json과 schain이 이를 보강한다.
 
-## 후속 연결 문서
-
+## 선행 개념
 - [신뢰와 Web3로 확장되는 광고플랫폼 이해](/trust/)
 - [ads.txt와 app-ads.txt 이해](/standards/ads-txt-and-app-ads-txt)

@@ -50,7 +50,7 @@ flowchart LR
 - On the web, `tag` or `script` is often more precise than `SDK`.
 - In mobile apps and CTV, `SDK` is often the natural term.
 
-## Related Documents
+## Next Documents
 
 - [Publisher Onboarding and Placement Registration](/en/fundamentals/publisher-onboarding)
-- [../20. Standards and Protocols/01. Understanding ads.txt and app-ads.txt](../20.%20Standards%20and%20Protocols/01.%20Understanding%20ads.txt%20and%20app-ads.txt.md)
+- [Understanding ads.txt and app-ads.txt](/en/standards/ads-txt-and-app-ads-txt)

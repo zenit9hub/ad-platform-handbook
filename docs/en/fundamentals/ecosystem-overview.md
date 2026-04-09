@@ -58,7 +58,7 @@ flowchart LR
 - ads.txt and app-ads.txt details
 - Tracking, verification, and reconciliation details
 
-## Related Documents
+## Next Documents
 
 - [Roles of Publisher, SSP, DSP, and Exchange](/en/fundamentals/roles)
 - [Ad Request vs Bid Request](/en/fundamentals/ad-request-vs-bid-request)

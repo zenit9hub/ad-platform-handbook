@@ -45,7 +45,10 @@ flowchart LR
 - measurement vendor 집계 위치
 - idempotency와 deduplication 처리
 
-## 후속 연결 문서
+## 선행 개념
 
 - [신뢰와 Web3로 확장되는 광고플랫폼 이해](/trust/)
+
+## 다음으로 읽을 문서
+
 - [sellers.json과 schain 이해](/measurement/sellers-json-and-schain)

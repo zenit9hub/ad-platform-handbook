@@ -42,7 +42,10 @@ flowchart TD
 - 앱 또는 CTV 앱 문맥을 표현한다.
 - bundle, storeurl, app publisher 정보와 연결된다.
 
-## 후속 연결 문서
+## 선행 개념
 
 - [OpenRTB는 무엇인가](/standards/openrtb-overview)
+
+## 관련 문서
+
 - [ads.txt와 app-ads.txt 이해](/standards/ads-txt-and-app-ads-txt)

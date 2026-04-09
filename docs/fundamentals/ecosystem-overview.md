@@ -52,7 +52,7 @@ flowchart LR
 4. 낙찰된 광고가 렌더링된다.
 5. 노출과 클릭 등 이벤트가 수집된다.
 
-## 후속 연결 문서
+## 다음으로 읽을 문서
 
 - [퍼블리셔, SSP, DSP, Exchange의 역할](/fundamentals/roles)
 - [광고 요청과 Bid Request의 차이](/fundamentals/ad-request-vs-bid-request)

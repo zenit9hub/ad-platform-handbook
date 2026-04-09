@@ -16,7 +16,10 @@ This category introduces the minimum conceptual structure needed to understand h
 3. [Ad Request vs Bid Request](/en/fundamentals/ad-request-vs-bid-request)
 4. [Publisher Onboarding and Placement Registration](/en/fundamentals/publisher-onboarding)
 
-## Next Categories
+## Next Category
 
 - [Standards and Protocols](/en/standards/)
+
+## Later Categories
+
 - [Measurement, Verification, and Trust](/en/measurement/)

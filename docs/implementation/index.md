@@ -18,6 +18,6 @@ description: "광고플랫폼 개념을 시스템 설계와 로그 처리 관점
 - 중복 수집과 idempotency 처리
 - source of truth와 집계 기준 설계
 
-## 후속 카테고리
+## 다음 카테고리
 
 - [레퍼런스](/reference/)

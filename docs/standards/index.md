@@ -15,7 +15,10 @@ description: "광고플랫폼의 공통 언어 역할을 하는 표준과 프로
 2. [OpenRTB는 무엇인가](/standards/openrtb-overview)
 3. [site, app, imp 객체 읽는 법](/standards/site-app-imp)
 
-## 후속 카테고리
+## 다음 카테고리
 
 - [전달과 렌더링](/delivery/)
+
+## 이후 확장 카테고리
+
 - [측정 · 검증 · 신뢰](/measurement/)

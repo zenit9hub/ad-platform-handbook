@@ -46,7 +46,10 @@ flowchart TD
 - It does not solve every fraud, quality, or trust issue on its own.
 - Additional signals such as sellers.json, schain, and log validation are still important.
 
-## Related Documents
+## Prerequisite Document
 
 - [Publisher Onboarding and Placement Registration](/en/fundamentals/publisher-onboarding)
-- `sellers.json and schain` draft planned
+
+## Next Document
+
+- [Understanding sellers.json and schain](/en/measurement/sellers-json-and-schain)

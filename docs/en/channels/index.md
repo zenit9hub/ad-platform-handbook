@@ -18,6 +18,10 @@ This category covers the differences between web, app, and CTV environments, as 
 - app vs CTV
 - display, video, native, and audio format differences
 
-## Next Categories
+## Next Category
 
 - [Implementation Patterns](/en/implementation/)
+
+## Later Categories
+
+- [Reference](/en/reference/)

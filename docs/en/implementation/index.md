@@ -18,6 +18,6 @@ This category connects ad platform concepts to system design, event logging, and
 - duplicate collection and idempotency handling
 - source of truth and aggregation design
 
-## Next Categories
+## Next Category
 
 - [Reference](/en/reference/)

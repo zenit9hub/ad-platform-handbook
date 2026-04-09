@@ -12,9 +12,9 @@ This category focuses on what ad platforms can trust, measure, verify, and recon
 ## Current Documents
 
 1. [Understanding Ad Platforms Through Trust and Web3](/en/trust/)
-2. [Introduction to Discrepancy and Reconciliation](/en/measurement/discrepancy-and-reconciliation)
-3. [Understanding sellers.json and schain](/en/measurement/sellers-json-and-schain)
-4. [Understanding TrackingEvents, impression, click, and quartile](/en/measurement/tracking-events)
+2. [Understanding TrackingEvents, impression, click, and quartile](/en/measurement/tracking-events)
+3. [Introduction to Discrepancy and Reconciliation](/en/measurement/discrepancy-and-reconciliation)
+4. [Understanding sellers.json and schain](/en/measurement/sellers-json-and-schain)
 
 ## Recommended Reading Order
 
@@ -23,7 +23,11 @@ This category focuses on what ad platforms can trust, measure, verify, and recon
 3. Introduction to Discrepancy and Reconciliation
 4. Understanding sellers.json and schain
 
-## Next Categories
+## Next Category
+
+- [Channels](/en/channels/)
+
+## Later Categories
 
 - [Implementation Patterns](/en/implementation/)
 - [Reference](/en/reference/)

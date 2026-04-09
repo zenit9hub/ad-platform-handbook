@@ -15,7 +15,10 @@ This category explains the standards and protocol structures that act as shared 
 2. [What Is OpenRTB](/en/standards/openrtb-overview)
 3. [How to Read site, app, and imp](/en/standards/site-app-imp)
 
-## Next Categories
+## Next Category
 
 - [Delivery and Rendering](/en/delivery/)
+
+## Later Categories
+
 - [Measurement, Verification, and Trust](/en/measurement/)

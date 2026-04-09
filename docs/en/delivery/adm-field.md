@@ -43,7 +43,10 @@ flowchart LR
 - click and impression trackers
 - verification tags
 
-## Related Documents
+## Prerequisite Concept
 
 - [What Is OpenRTB](/en/standards/openrtb-overview)
+
+## Next Document
+
 - [Introduction to Discrepancy and Reconciliation](/en/measurement/discrepancy-and-reconciliation)

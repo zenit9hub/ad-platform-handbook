@@ -56,5 +56,8 @@ flowchart LR
 ## Related Documents
 
 - [How to Read site, app, and imp](/en/standards/site-app-imp)
-- [Understanding ads.txt and app-ads.txt](/en/standards/ads-txt-and-app-ads-txt)
 - [What Goes in the adm Field](/en/delivery/adm-field)
+
+## Read Together
+
+- [Understanding ads.txt and app-ads.txt](/en/standards/ads-txt-and-app-ads-txt)

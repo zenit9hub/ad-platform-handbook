@@ -46,7 +46,10 @@ flowchart LR
 - `ads.txt` 또는 `app-ads.txt`는 authorized seller 공개 수단이다.
 - 실제 운영을 위한 site/app/placement 등록은 SSP 내부 온보딩 절차에서 이뤄진다.
 
-## 후속 연결 문서
+## 선행 문서
 
 - [광고 요청과 Bid Request의 차이](/fundamentals/ad-request-vs-bid-request)
+
+## 다음으로 읽을 문서
+
 - [ads.txt와 app-ads.txt 이해](/standards/ads-txt-and-app-ads-txt)

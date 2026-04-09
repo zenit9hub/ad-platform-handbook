@@ -16,7 +16,10 @@ description: "광고플랫폼을 처음 이해하는 데 필요한 기본 구조
 3. [광고 요청과 Bid Request의 차이](/fundamentals/ad-request-vs-bid-request)
 4. [퍼블리셔 온보딩과 지면 등록](/fundamentals/publisher-onboarding)
 
-## 후속 카테고리
+## 다음 카테고리
 
 - [표준과 프로토콜](/standards/)
+
+## 이후 확장 카테고리
+
 - [측정 · 검증 · 신뢰](/measurement/)
