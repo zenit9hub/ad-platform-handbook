@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Ad Platform Handbook
   text: 표준, 신뢰, 그리고 Web3
-  tagline: OpenRTB와 VAST부터 측정, 검증, 차세대 신뢰 인프라까지 현대 광고플랫폼을 실무적으로 이해하기 위한 가이드
+  tagline: OpenRTB와 VAST부터 측정, 검증, 정합성, 구현, 그리고 Trust · Web3 실험까지 현대 광고플랫폼을 실무적으로 이해하기 위한 가이드
   actions:
     - theme: brand
       text: 기초부터 시작하기
@@ -13,8 +13,11 @@ hero:
       text: 표준 살펴보기
       link: /standards/
     - theme: alt
-      text: 측정 · 신뢰 보기
+      text: 측정 · 검증 보기
       link: /measurement/
+    - theme: alt
+      text: Trust · Web3 실험실 보기
+      link: /lab/
 
 features:
   - title: 기초 개념
@@ -23,12 +26,14 @@ features:
     details: OpenRTB, ads.txt, app-ads.txt와 핵심 객체 구조 같은 공통 프로토콜을 학습합니다.
   - title: 전달과 렌더링
     details: adm, creative handoff, SDK, player, tag가 어떤 역할을 맡는지 이해합니다.
-  - title: 측정 · 신뢰
-    details: discrepancy, reconciliation, 공급 경로 투명성, trust layer 관점을 함께 읽습니다.
+  - title: 측정 · 검증 · 정합성
+    details: tracking, verification, discrepancy, reconciliation, 공급 경로 투명성을 현재 광고플랫폼 관점에서 읽습니다.
   - title: 채널과 포맷
     details: 웹, 앱, CTV가 같은 표준 위에서 어떻게 다르게 동작하는지 채널별로 비교합니다.
   - title: 구현 패턴
     details: request, auction, delivery, runtime event 로그를 어떤 계층으로 설계해야 하는지 정리합니다.
+  - title: Trust · Web3 실험실
+    details: OpenRTB 3.0의 문제의식, SSI, blockchain, provenance 같은 미래 확장 주제를 실험실 관점에서 다룹니다.
   - title: 레퍼런스
     details: 용어, 객체, 필드, 파라미터를 빠르게 찾아볼 수 있는 조회형 문서를 누적합니다.
 ---
@@ -42,8 +47,9 @@ features:
 1. 먼저 기초 개념부터 읽습니다.
 2. 이후 OpenRTB와 표준 객체 구조를 읽습니다.
 3. 다음으로 adm, 렌더링, runtime 실행 주체를 이해합니다.
-4. 이어서 측정, 신뢰, reconciliation, 공급 경로 해석을 읽습니다.
-5. 마지막으로 채널별 차이와 구현 패턴, 레퍼런스 문서로 확장합니다.
+4. 이어서 측정, 검증, 정합성, 공급 경로 해석을 읽습니다.
+5. 그 다음 채널별 차이와 구현 패턴을 읽습니다.
+6. 마지막으로 Trust · Web3 실험실과 레퍼런스 문서로 확장합니다.
 
 ## 탐색 방식
 

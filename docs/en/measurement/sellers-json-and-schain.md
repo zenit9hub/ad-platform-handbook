@@ -44,5 +44,6 @@ flowchart LR
 - sellers.json and schain help extend that interpretation
 
 ## Prerequisite Concepts
-- [Understanding Ad Platforms Through Trust and Web3](/en/trust/)
+
 - [Understanding ads.txt and app-ads.txt](/en/standards/ads-txt-and-app-ads-txt)
+- [Introduction to Discrepancy and Reconciliation](/en/measurement/discrepancy-and-reconciliation)

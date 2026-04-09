@@ -44,5 +44,6 @@ flowchart LR
 - sellers.json과 schain이 이를 보강한다.
 
 ## 선행 개념
-- [신뢰와 Web3로 확장되는 광고플랫폼 이해](/trust/)
+
 - [ads.txt와 app-ads.txt 이해](/standards/ads-txt-and-app-ads-txt)
+- [Discrepancy와 Reconciliation 개요](/measurement/discrepancy-and-reconciliation)

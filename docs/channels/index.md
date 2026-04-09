@@ -24,4 +24,5 @@ description: "웹, 앱, CTV와 주요 광고 포맷 차이를 다룬다."
 
 ## 이후 확장 카테고리
 
+- [Trust · Web3 실험실](/lab/)
 - [레퍼런스](/reference/)

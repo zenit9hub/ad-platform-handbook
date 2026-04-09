@@ -23,9 +23,10 @@ export default withMermaid(
             { text: '기초 개념', link: '/fundamentals/' },
             { text: '표준', link: '/standards/' },
             { text: '전달과 렌더링', link: '/delivery/' },
-            { text: '측정 · 신뢰', link: '/measurement/' },
+            { text: '측정 · 검증 · 정합성', link: '/measurement/' },
             { text: '채널과 포맷', link: '/channels/' },
             { text: '구현 패턴', link: '/implementation/' },
+            { text: 'Trust · Web3 실험실', link: '/lab/' },
             { text: '레퍼런스', link: '/reference/' }
           ],
           sidebar: [
@@ -45,7 +46,8 @@ export default withMermaid(
                 { text: '개요', link: '/standards/' },
                 { text: 'ads.txt와 app-ads.txt 이해', link: '/standards/ads-txt-and-app-ads-txt' },
                 { text: 'OpenRTB는 무엇인가', link: '/standards/openrtb-overview' },
-                { text: 'site, app, imp 객체 읽는 법', link: '/standards/site-app-imp' }
+                { text: 'site, app, imp 객체 읽는 법', link: '/standards/site-app-imp' },
+                { text: 'OpenRTB 3.0은 왜 널리 확장되지 못했고 2.6은 왜 이어졌는가', link: '/standards/openrtb-3-and-2-6' }
               ]
             },
             {
@@ -56,10 +58,9 @@ export default withMermaid(
               ]
             },
             {
-              text: '측정 · 신뢰',
+              text: '측정 · 검증 · 정합성',
               items: [
                 { text: '개요', link: '/measurement/' },
-                { text: '신뢰 + Web3 개요', link: '/trust/' },
                 { text: 'TrackingEvents, impression, click, quartile 이해', link: '/measurement/tracking-events' },
                 { text: 'Discrepancy와 Reconciliation 개요', link: '/measurement/discrepancy-and-reconciliation' },
                 { text: 'sellers.json과 schain 이해', link: '/measurement/sellers-json-and-schain' }
@@ -77,6 +78,13 @@ export default withMermaid(
               items: [
                 { text: '개요', link: '/implementation/' },
                 { text: '이벤트 로그 스키마 설계 기초', link: '/implementation/event-log-schema' }
+              ]
+            },
+            {
+              text: 'Trust · Web3 실험실',
+              items: [
+                { text: '개요', link: '/lab/' },
+                { text: '광고플랫폼에서 SSI와 Blockchain으로 실험할 수 있는 것', link: '/lab/ssi-and-blockchain' }
               ]
             },
             {
@@ -114,9 +122,10 @@ export default withMermaid(
             { text: 'Fundamentals', link: '/en/fundamentals/' },
             { text: 'Standards', link: '/en/standards/' },
             { text: 'Delivery', link: '/en/delivery/' },
-            { text: 'Measurement', link: '/en/measurement/' },
+            { text: 'Measurement · Verification · Reconciliation', link: '/en/measurement/' },
             { text: 'Channels', link: '/en/channels/' },
             { text: 'Implementation', link: '/en/implementation/' },
+            { text: 'Trust · Web3 Lab', link: '/en/lab/' },
             { text: 'Reference', link: '/en/reference/' }
           ],
           sidebar: [
@@ -136,7 +145,8 @@ export default withMermaid(
                 { text: 'Overview', link: '/en/standards/' },
                 { text: 'Understanding ads.txt and app-ads.txt', link: '/en/standards/ads-txt-and-app-ads-txt' },
                 { text: 'What Is OpenRTB', link: '/en/standards/openrtb-overview' },
-                { text: 'How to Read site, app, and imp', link: '/en/standards/site-app-imp' }
+                { text: 'How to Read site, app, and imp', link: '/en/standards/site-app-imp' },
+                { text: 'Why OpenRTB 3.0 Did Not Expand Broadly and Why 2.6 Continued', link: '/en/standards/openrtb-3-and-2-6' }
               ]
             },
             {
@@ -147,10 +157,9 @@ export default withMermaid(
               ]
             },
             {
-              text: 'Measurement',
+              text: 'Measurement · Verification · Reconciliation',
               items: [
                 { text: 'Overview', link: '/en/measurement/' },
-                { text: 'Trust + Web3 Overview', link: '/en/trust/' },
                 { text: 'Understanding TrackingEvents, impression, click, and quartile', link: '/en/measurement/tracking-events' },
                 { text: 'Introduction to Discrepancy and Reconciliation', link: '/en/measurement/discrepancy-and-reconciliation' },
                 { text: 'Understanding sellers.json and schain', link: '/en/measurement/sellers-json-and-schain' }
@@ -168,6 +177,13 @@ export default withMermaid(
               items: [
                 { text: 'Overview', link: '/en/implementation/' },
                 { text: 'Event Log Schema Basics', link: '/en/implementation/event-log-schema' }
+              ]
+            },
+            {
+              text: 'Trust · Web3 Lab',
+              items: [
+                { text: 'Overview', link: '/en/lab/' },
+                { text: 'What SSI and Blockchain Can Be Used to Experiment With in Ad Platforms', link: '/en/lab/ssi-and-blockchain' }
               ]
             },
             {

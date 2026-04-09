@@ -1,23 +1,27 @@
 ---
 title: "Implementation Patterns"
-description: "Connects ad platform concepts to system design, event logging, and operations."
+description: "Connects ad platform concepts to system design and log-processing patterns."
 ---
 
-# Implementation Patterns Category Index
+# Implementation Patterns
 
 ## Purpose
 
-This category connects ad platform concepts to system design, event logging, and operational implementation patterns.
+This category connects ad platform concepts to actual system design and log-processing patterns.
 
 ## Current Documents
 
 1. [Event Log Schema Basics](/en/implementation/event-log-schema)
 
-## Next Document Candidates
+## Candidate Next Documents
 
-- duplicate collection and idempotency handling
-- source of truth and aggregation design
+- Idempotency and deduplication
+- Source of truth and aggregation baselines
 
 ## Next Category
+
+- [Trust · Web3 Lab](/en/lab/)
+
+## Later Category
 
 - [Reference](/en/reference/)

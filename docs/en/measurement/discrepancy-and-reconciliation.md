@@ -45,9 +45,10 @@ flowchart LR
 - where measurement vendor data enters the flow
 - deduplication and idempotency rules
 
-## Prerequisite Concept
+## Prerequisite Concepts
 
-- [Understanding Ad Platforms Through Trust and Web3](/en/trust/)
+- [Understanding TrackingEvents, impression, click, and quartile](/en/measurement/tracking-events)
+- [Event Log Schema Basics](/en/implementation/event-log-schema)
 
 ## Next Document
 

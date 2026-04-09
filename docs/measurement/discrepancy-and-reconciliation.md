@@ -47,7 +47,8 @@ flowchart LR
 
 ## 선행 개념
 
-- [신뢰와 Web3로 확장되는 광고플랫폼 이해](/trust/)
+- [TrackingEvents, impression, click, quartile 이해](/measurement/tracking-events)
+- [이벤트 로그 스키마 설계 기초](/implementation/event-log-schema)
 
 ## 다음으로 읽을 문서
 

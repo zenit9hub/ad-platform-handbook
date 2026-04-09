@@ -1,27 +1,25 @@
 ---
-title: "Measurement, Verification, and Trust"
-description: "Covers how ad platforms measure, verify, reconcile, and interpret trust."
+title: "Measurement · Verification · Reconciliation"
+description: "Covers measurement, verification, discrepancy, and reconciliation in ad platforms."
 ---
 
-# Measurement, Verification, and Trust Category Index
+# Measurement · Verification · Reconciliation
 
 ## Purpose
 
-This category focuses on what ad platforms can trust, measure, verify, and reconcile across multiple systems.
+This category focuses on how ad platforms measure events, verify runtime behavior, and reconcile differences across systems. It covers tracking, verification, discrepancy, reconciliation, and supply path transparency from the perspective of current operations.
 
 ## Current Documents
 
-1. [Understanding Ad Platforms Through Trust and Web3](/en/trust/)
-2. [Understanding TrackingEvents, impression, click, and quartile](/en/measurement/tracking-events)
-3. [Introduction to Discrepancy and Reconciliation](/en/measurement/discrepancy-and-reconciliation)
-4. [Understanding sellers.json and schain](/en/measurement/sellers-json-and-schain)
+1. [Understanding TrackingEvents, impression, click, and quartile](/en/measurement/tracking-events)
+2. [Introduction to Discrepancy and Reconciliation](/en/measurement/discrepancy-and-reconciliation)
+3. [Understanding sellers.json and schain](/en/measurement/sellers-json-and-schain)
 
 ## Recommended Reading Order
 
-1. Understanding Ad Platforms Through Trust and Web3
-2. Understanding TrackingEvents, impression, click, and quartile
-3. Introduction to Discrepancy and Reconciliation
-4. Understanding sellers.json and schain
+1. Understanding TrackingEvents, impression, click, and quartile
+2. Introduction to Discrepancy and Reconciliation
+3. Understanding sellers.json and schain
 
 ## Next Category
 
@@ -29,5 +27,6 @@ This category focuses on what ad platforms can trust, measure, verify, and recon
 
 ## Later Categories
 
-- [Implementation Patterns](/en/implementation/)
+- [Implementation](/en/implementation/)
+- [Trust · Web3 Lab](/en/lab/)
 - [Reference](/en/reference/)
