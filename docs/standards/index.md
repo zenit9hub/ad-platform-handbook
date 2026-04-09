@@ -12,3 +12,8 @@
 ## 문서
 
 - [ads.txt와 app-ads.txt 이해](/standards/ads-txt-and-app-ads-txt)
+
+## 탐색 안내
+
+- 사이드바에서 기초 개념 문서와 `신뢰 + Web3` 카테고리를 함께 볼 수 있습니다.
+- 이 섹션 다음에는 [신뢰 + Web3](/trust/) 카테고리로 이어서 읽는 흐름을 권장합니다.

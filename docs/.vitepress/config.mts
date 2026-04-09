@@ -21,31 +21,32 @@ export default withMermaid(
           nav: [
             { text: '홈', link: '/' },
             { text: '기초 개념', link: '/fundamentals/' },
-            { text: '표준', link: '/standards/' }
+            { text: '표준', link: '/standards/' },
+            { text: '신뢰 + Web3', link: '/trust/' }
           ],
-          sidebar: {
-            '/fundamentals/': [
-              {
-                text: '기초 개념',
-                items: [
-                  { text: '개요', link: '/fundamentals/' },
-                  { text: '광고플랫폼 생태계 한눈에 보기', link: '/fundamentals/ecosystem-overview' },
-                  { text: '퍼블리셔, SSP, DSP, Exchange의 역할', link: '/fundamentals/roles' },
-                  { text: '광고 요청과 Bid Request의 차이', link: '/fundamentals/ad-request-vs-bid-request' },
-                  { text: '퍼블리셔 온보딩과 지면 등록', link: '/fundamentals/publisher-onboarding' }
-                ]
-              }
-            ],
-            '/standards/': [
-              {
-                text: '표준',
-                items: [
-                  { text: '개요', link: '/standards/' },
-                  { text: 'ads.txt와 app-ads.txt 이해', link: '/standards/ads-txt-and-app-ads-txt' }
-                ]
-              }
-            ]
-          },
+          sidebar: [
+            {
+              text: '기초 개념',
+              items: [
+                { text: '개요', link: '/fundamentals/' },
+                { text: '광고플랫폼 생태계 한눈에 보기', link: '/fundamentals/ecosystem-overview' },
+                { text: '퍼블리셔, SSP, DSP, Exchange의 역할', link: '/fundamentals/roles' },
+                { text: '광고 요청과 Bid Request의 차이', link: '/fundamentals/ad-request-vs-bid-request' },
+                { text: '퍼블리셔 온보딩과 지면 등록', link: '/fundamentals/publisher-onboarding' }
+              ]
+            },
+            {
+              text: '표준',
+              items: [
+                { text: '개요', link: '/standards/' },
+                { text: 'ads.txt와 app-ads.txt 이해', link: '/standards/ads-txt-and-app-ads-txt' }
+              ]
+            },
+            {
+              text: '신뢰 + Web3',
+              items: [{ text: '개요', link: '/trust/' }]
+            }
+          ],
           outlineTitle: '이 페이지에서',
           docFooter: {
             prev: '이전',
@@ -71,31 +72,32 @@ export default withMermaid(
           nav: [
             { text: 'Home', link: '/en/' },
             { text: 'Fundamentals', link: '/en/fundamentals/' },
-            { text: 'Standards', link: '/en/standards/' }
+            { text: 'Standards', link: '/en/standards/' },
+            { text: 'Trust + Web3', link: '/en/trust/' }
           ],
-          sidebar: {
-            '/en/fundamentals/': [
-              {
-                text: 'Fundamentals',
-                items: [
-                  { text: 'Overview', link: '/en/fundamentals/' },
-                  { text: 'Ad Platform Ecosystem Overview', link: '/en/fundamentals/ecosystem-overview' },
-                  { text: 'Roles of Publisher, SSP, DSP, and Exchange', link: '/en/fundamentals/roles' },
-                  { text: 'Ad Request vs Bid Request', link: '/en/fundamentals/ad-request-vs-bid-request' },
-                  { text: 'Publisher Onboarding and Placement Registration', link: '/en/fundamentals/publisher-onboarding' }
-                ]
-              }
-            ],
-            '/en/standards/': [
-              {
-                text: 'Standards',
-                items: [
-                  { text: 'Overview', link: '/en/standards/' },
-                  { text: 'Understanding ads.txt and app-ads.txt', link: '/en/standards/ads-txt-and-app-ads-txt' }
-                ]
-              }
-            ]
-          }
+          sidebar: [
+            {
+              text: 'Fundamentals',
+              items: [
+                { text: 'Overview', link: '/en/fundamentals/' },
+                { text: 'Ad Platform Ecosystem Overview', link: '/en/fundamentals/ecosystem-overview' },
+                { text: 'Roles of Publisher, SSP, DSP, and Exchange', link: '/en/fundamentals/roles' },
+                { text: 'Ad Request vs Bid Request', link: '/en/fundamentals/ad-request-vs-bid-request' },
+                { text: 'Publisher Onboarding and Placement Registration', link: '/en/fundamentals/publisher-onboarding' }
+              ]
+            },
+            {
+              text: 'Standards',
+              items: [
+                { text: 'Overview', link: '/en/standards/' },
+                { text: 'Understanding ads.txt and app-ads.txt', link: '/en/standards/ads-txt-and-app-ads-txt' }
+              ]
+            },
+            {
+              text: 'Trust + Web3',
+              items: [{ text: 'Overview', link: '/en/trust/' }]
+            }
+          ]
         }
       }
     },

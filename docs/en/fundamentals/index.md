@@ -15,3 +15,8 @@ Start here if you want a structured introduction to how modern ad platforms work
 - [Roles of Publisher, SSP, DSP, and Exchange](/en/fundamentals/roles)
 - [Ad Request vs Bid Request](/en/fundamentals/ad-request-vs-bid-request)
 - [Publisher Onboarding and Placement Registration](/en/fundamentals/publisher-onboarding)
+
+## Navigation Notes
+
+- The sidebar keeps `Standards` and `Trust + Web3` visible while you read.
+- After this section, the recommended next step is [Standards](/en/standards/).

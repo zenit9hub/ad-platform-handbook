@@ -13,16 +13,16 @@ hero:
       text: 표준 살펴보기
       link: /standards/
     - theme: alt
-      text: GitHub 저장소
-      link: https://github.com/zenit9hub/ad-platform-handbook
+      text: 신뢰 + Web3 보기
+      link: /trust/
 
 features:
+  - title: 기초 개념
+    details: 광고플랫폼 생태계, 주요 플레이어의 역할, ad request와 bid request의 차이부터 이해합니다.
   - title: 표준
     details: OpenRTB, VAST, ads.txt, app-ads.txt, OMID 등 현대 광고플랫폼의 핵심 표준을 학습합니다.
-  - title: 신뢰
-    details: verification, discrepancy, reconciliation, 공급 경로 투명성, measurement reliability를 함께 이해합니다.
-  - title: Web3
-    details: 암호학적 증명, provenance, 차세대 신뢰 인프라 관점에서 광고플랫폼의 확장 가능성을 탐색합니다.
+  - title: 신뢰 + Web3
+    details: verification, discrepancy, reconciliation, 공급 경로 투명성, provenance와 차세대 신뢰 인프라 관점을 함께 읽습니다.
 ---
 
 ## 이 사이트에 대해
@@ -33,7 +33,13 @@ features:
 
 1. 먼저 기초 개념부터 읽습니다.
 2. 이후 OpenRTB, VAST 같은 표준으로 이동합니다.
-3. 다음으로 측정, 신뢰, 구현 패턴을 확장해서 읽습니다.
+3. 다음으로 신뢰, 검증, reconciliation, Web3 확장 관점으로 이어갑니다.
+
+## 탐색 방식
+
+- 한 번 문서에 진입하면 사이드바에서 모든 카테고리와 문서를 계속 탐색할 수 있습니다.
+- 현재 읽는 카테고리뿐 아니라 다른 카테고리의 문서도 바로 이동할 수 있도록 구성합니다.
+- GitHub 저장소 링크는 상단 아이콘으로 유지하고, 홈에서는 학습 경로 중심 CTA만 노출합니다.
 
 ## 다루는 범위
 
