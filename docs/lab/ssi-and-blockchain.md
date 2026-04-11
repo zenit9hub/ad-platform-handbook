@@ -101,7 +101,7 @@ flowchart LR
 
 ## 선행 문서
 
-- [OpenRTB 3.0은 왜 널리 확장되지 못했고 2.6은 왜 이어졌는가](/standards/openrtb-3-and-2-6)
+- [OpenRTB 3.0이 지향한 것과 2.6에 다시 반영된 것](/standards/openrtb-3-and-2-6)
 - [Discrepancy와 Reconciliation 개요](/measurement/discrepancy-and-reconciliation)
 - [이벤트 로그 스키마 설계 기초](/implementation/event-log-schema)
 

@@ -56,7 +56,8 @@ flowchart LR
 ## 다음으로 읽을 문서
 
 - [site, app, imp 객체 읽는 법](/standards/site-app-imp)
-- [OpenRTB 3.0은 왜 널리 확장되지 못했고 2.6은 왜 이어졌는가](/standards/openrtb-3-and-2-6)
+- [OpenRTB 2.6 핵심 필수 · 권장 항목 한눈에 보기](/standards/openrtb-required-and-recommended)
+- [OpenRTB 3.0이 지향한 것과 2.6에 다시 반영된 것](/standards/openrtb-3-and-2-6)
 - [adm 필드는 무엇을 담는가](/delivery/adm-field)
 
 ## 함께 읽을 문서

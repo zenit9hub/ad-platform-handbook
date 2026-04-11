@@ -12,7 +12,7 @@ description: "현재 광고플랫폼 이해를 바탕으로 SSI, blockchain, pro
 ## 읽기 전 전제
 
 - [OpenRTB는 무엇인가](/standards/openrtb-overview)
-- [OpenRTB 3.0은 왜 널리 확장되지 못했고 2.6은 왜 이어졌는가](/standards/openrtb-3-and-2-6)
+- [OpenRTB 3.0이 지향한 것과 2.6에 다시 반영된 것](/standards/openrtb-3-and-2-6)
 - [이벤트 로그 스키마 설계 기초](/implementation/event-log-schema)
 
 ## 현재 문서
@@ -21,7 +21,7 @@ description: "현재 광고플랫폼 이해를 바탕으로 SSI, blockchain, pro
 
 ## 권장 읽기 순서
 
-1. OpenRTB 3.0은 왜 널리 확장되지 못했고 2.6은 왜 이어졌는가
+1. OpenRTB 3.0이 지향한 것과 2.6에 다시 반영된 것
 2. 이벤트 로그 스키마 설계 기초
 3. 광고플랫폼에서 SSI, Blockchain, AI Agent로 실험할 수 있는 것
 

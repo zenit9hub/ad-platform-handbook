@@ -47,7 +47,8 @@ export default withMermaid(
                 { text: 'ads.txt와 app-ads.txt 이해', link: '/standards/ads-txt-and-app-ads-txt' },
                 { text: 'OpenRTB는 무엇인가', link: '/standards/openrtb-overview' },
                 { text: 'site, app, imp 객체 읽는 법', link: '/standards/site-app-imp' },
-                { text: 'OpenRTB 3.0은 왜 널리 확장되지 못했고 2.6은 왜 이어졌는가', link: '/standards/openrtb-3-and-2-6' }
+                { text: 'OpenRTB 2.6 핵심 필수 · 권장 항목 한눈에 보기', link: '/standards/openrtb-required-and-recommended' },
+                { text: 'OpenRTB 3.0이 지향한 것과 2.6에 다시 반영된 것', link: '/standards/openrtb-3-and-2-6' }
               ]
             },
             {
@@ -61,6 +62,7 @@ export default withMermaid(
               text: '측정 · 검증 · 정합성',
               items: [
                 { text: '개요', link: '/measurement/' },
+                { text: 'imp와 impression은 왜 다른가', link: '/measurement/imp-vs-impression' },
                 { text: 'TrackingEvents, impression, click, quartile 이해', link: '/measurement/tracking-events' },
                 { text: 'Discrepancy와 Reconciliation 개요', link: '/measurement/discrepancy-and-reconciliation' },
                 { text: 'sellers.json과 schain 이해', link: '/measurement/sellers-json-and-schain' }
@@ -146,7 +148,8 @@ export default withMermaid(
                 { text: 'Understanding ads.txt and app-ads.txt', link: '/en/standards/ads-txt-and-app-ads-txt' },
                 { text: 'What Is OpenRTB', link: '/en/standards/openrtb-overview' },
                 { text: 'How to Read site, app, and imp', link: '/en/standards/site-app-imp' },
-                { text: 'Why OpenRTB 3.0 Did Not Expand Broadly and Why 2.6 Continued', link: '/en/standards/openrtb-3-and-2-6' }
+                { text: 'OpenRTB 2.6 Required and Recommended Fields at a Glance', link: '/en/standards/openrtb-required-and-recommended' },
+                { text: 'What OpenRTB 3.0 aimed for and what returned in 2.6', link: '/en/standards/openrtb-3-and-2-6' }
               ]
             },
             {
@@ -160,6 +163,7 @@ export default withMermaid(
               text: 'Measurement · Verification · Reconciliation',
               items: [
                 { text: 'Overview', link: '/en/measurement/' },
+                { text: 'Why imp and impression are different', link: '/en/measurement/imp-vs-impression' },
                 { text: 'Understanding TrackingEvents, impression, click, and quartile', link: '/en/measurement/tracking-events' },
                 { text: 'Introduction to Discrepancy and Reconciliation', link: '/en/measurement/discrepancy-and-reconciliation' },
                 { text: 'Understanding sellers.json and schain', link: '/en/measurement/sellers-json-and-schain' }

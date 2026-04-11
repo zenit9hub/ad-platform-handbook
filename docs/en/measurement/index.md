@@ -11,15 +11,17 @@ This category focuses on how ad platforms measure events, verify runtime behavio
 
 ## Current Documents
 
-1. [Understanding TrackingEvents, impression, click, and quartile](/en/measurement/tracking-events)
-2. [Introduction to Discrepancy and Reconciliation](/en/measurement/discrepancy-and-reconciliation)
-3. [Understanding sellers.json and schain](/en/measurement/sellers-json-and-schain)
+1. [Why imp and impression are different](/en/measurement/imp-vs-impression)
+2. [Understanding TrackingEvents, impression, click, and quartile](/en/measurement/tracking-events)
+3. [Introduction to Discrepancy and Reconciliation](/en/measurement/discrepancy-and-reconciliation)
+4. [Understanding sellers.json and schain](/en/measurement/sellers-json-and-schain)
 
 ## Recommended Reading Order
 
-1. Understanding TrackingEvents, impression, click, and quartile
-2. Introduction to Discrepancy and Reconciliation
-3. Understanding sellers.json and schain
+1. Why imp and impression are different
+2. Understanding TrackingEvents, impression, click, and quartile
+3. Introduction to Discrepancy and Reconciliation
+4. Understanding sellers.json and schain
 
 ## Next Category
 

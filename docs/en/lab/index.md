@@ -12,7 +12,7 @@ This category is a later-stage lab for readers who already understand the core s
 ## Read This After
 
 - [What Is OpenRTB](/en/standards/openrtb-overview)
-- [Why OpenRTB 3.0 Did Not Expand Broadly and Why 2.6 Continued](/en/standards/openrtb-3-and-2-6)
+- [What OpenRTB 3.0 aimed for and what returned in 2.6](/en/standards/openrtb-3-and-2-6)
 - [Event Log Schema Basics](/en/implementation/event-log-schema)
 
 ## Current Documents
@@ -21,7 +21,7 @@ This category is a later-stage lab for readers who already understand the core s
 
 ## Recommended Reading Order
 
-1. Why OpenRTB 3.0 Did Not Expand Broadly and Why 2.6 Continued
+1. What OpenRTB 3.0 aimed for and what returned in 2.6
 2. Event Log Schema Basics
 3. What SSI, Blockchain, and AI Agents Can Be Used to Experiment With in Ad Platforms
 

@@ -101,7 +101,7 @@ This framing is an inference from OpenAI's agent design and guardrail guidance a
 
 ## Prerequisite Documents
 
-- [Why OpenRTB 3.0 Did Not Expand Broadly and Why 2.6 Continued](/en/standards/openrtb-3-and-2-6)
+- [What OpenRTB 3.0 aimed for and what returned in 2.6](/en/standards/openrtb-3-and-2-6)
 - [Introduction to Discrepancy and Reconciliation](/en/measurement/discrepancy-and-reconciliation)
 - [Event Log Schema Basics](/en/implementation/event-log-schema)
 

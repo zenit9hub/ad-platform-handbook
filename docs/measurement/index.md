@@ -11,15 +11,17 @@ description: "광고플랫폼에서 측정, 검증, 집계 차이, 정합성 조
 
 ## 현재 문서
 
-1. [TrackingEvents, impression, click, quartile 이해](/measurement/tracking-events)
-2. [Discrepancy와 Reconciliation 개요](/measurement/discrepancy-and-reconciliation)
-3. [sellers.json과 schain 이해](/measurement/sellers-json-and-schain)
+1. [imp와 impression은 왜 다른가](/measurement/imp-vs-impression)
+2. [TrackingEvents, impression, click, quartile 이해](/measurement/tracking-events)
+3. [Discrepancy와 Reconciliation 개요](/measurement/discrepancy-and-reconciliation)
+4. [sellers.json과 schain 이해](/measurement/sellers-json-and-schain)
 
 ## 권장 읽기 순서
 
-1. TrackingEvents, impression, click, quartile 이해
-2. Discrepancy와 Reconciliation 개요
-3. sellers.json과 schain 이해
+1. imp와 impression은 왜 다른가
+2. TrackingEvents, impression, click, quartile 이해
+3. Discrepancy와 Reconciliation 개요
+4. sellers.json과 schain 이해
 
 ## 다음 카테고리
 

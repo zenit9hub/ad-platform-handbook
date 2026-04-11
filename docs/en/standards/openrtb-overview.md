@@ -56,7 +56,8 @@ flowchart LR
 ## Next Documents
 
 - [How to Read site, app, and imp](/en/standards/site-app-imp)
-- [Why OpenRTB 3.0 Did Not Expand Broadly and Why 2.6 Continued](/en/standards/openrtb-3-and-2-6)
+- [OpenRTB 2.6 Required and Recommended Fields at a Glance](/en/standards/openrtb-required-and-recommended)
+- [What OpenRTB 3.0 aimed for and what returned in 2.6](/en/standards/openrtb-3-and-2-6)
 - [What Goes in the adm Field](/en/delivery/adm-field)
 
 ## Read Together

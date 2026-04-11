@@ -14,7 +14,8 @@ This category covers the standards and protocols that act as the shared language
 1. [Understanding ads.txt and app-ads.txt](/en/standards/ads-txt-and-app-ads-txt)
 2. [What Is OpenRTB](/en/standards/openrtb-overview)
 3. [How to Read site, app, and imp](/en/standards/site-app-imp)
-4. [Why OpenRTB 3.0 Did Not Expand Broadly and Why 2.6 Continued](/en/standards/openrtb-3-and-2-6)
+4. [OpenRTB 2.6 Required and Recommended Fields at a Glance](/en/standards/openrtb-required-and-recommended)
+5. [What OpenRTB 3.0 aimed for and what returned in 2.6](/en/standards/openrtb-3-and-2-6)
 
 ## Next Category
 

@@ -1,20 +1,20 @@
 ---
-title: "Why OpenRTB 3.0 Did Not Expand Broadly and Why 2.6 Continued"
-description: "Explains the architectural ambition of OpenRTB 3.0 and the practical continuation represented by OpenRTB 2.6."
+title: "What OpenRTB 3.0 aimed for and what returned in 2.6"
+description: "Explains the architectural direction of OpenRTB 3.0, the market resistance it faced, and how part of that direction returned in practical form through OpenRTB 2.6."
 ---
 
-# Why OpenRTB 3.0 Did Not Expand Broadly and Why 2.6 Continued
+# What OpenRTB 3.0 aimed for and what returned in 2.6
 
 ## Purpose
 
-This document explains how the standard evolved after OpenRTB 2.5, and why the market treated OpenRTB 2.6 as a more practical continuation than a full migration to OpenRTB 3.0.
+This document explains how the standard evolved after OpenRTB 2.5, what OpenRTB 3.0 tried to achieve, and how part of that direction returned in more practical form through OpenRTB 2.6.
 
 ## Key Takeaways
 
 - OpenRTB 3.0 was not just a minor upgrade. It proposed a broader redesign together with AdCOM and Ad Management.
-- That direction was architecturally meaningful, but it raised migration cost and implementation scope in practice.
+- That direction was architecturally meaningful, but the market preferred incremental evolution over a full migration.
 - IAB Tech Lab later described how ideas from OpenRTB 3.0 and AdCOM were being absorbed back into the 2.x ecosystem and introduced OpenRTB 2.6 with an emphasis on faster speed to market.
-- The most practical learning order is `2.5 as the baseline -> 3.0 as the design ambition -> 2.6 as the practical continuation`.
+- The most practical learning order is `2.5 as the baseline -> 3.0 as the design ambition -> market resistance -> 2.6 as the practical bridge`.
 
 ## Version Flow at a Glance
 
@@ -36,7 +36,7 @@ Its direction included:
 - broader interoperability goals beyond a simple auction message format
 - a greater focus on signed requests, provenance, and stronger security assumptions
 
-## 2. Why Adoption Was Slower
+## 2. Why the market did not move directly to 3.0
 
 IAB Tech Lab later explained that features from OpenRTB 3.0 and AdCOM were being added back into older 2.x flows. From that, the following interpretation is reasonable:
 
@@ -46,15 +46,16 @@ IAB Tech Lab later explained that features from OpenRTB 3.0 and AdCOM were being
 
 This interpretation is based on IAB Tech Lab's own explanation of 3.0 / AdCOM features being pulled into 2.x and its emphasis on faster speed to market when introducing 2.6.
 
-## 3. Why 2.6 Continued
+## 3. What returned in practical form through 2.6
 
-OpenRTB 2.6 is better understood as a practical continuation of the 2.x line while bringing in ideas the market urgently needed.
+OpenRTB 2.6 is better understood as a practical continuation of the 2.x line while bringing in ideas the market urgently needed. Not everything in 3.0 returned, but some of its motivation clearly reappeared in a more deployable form.
 
 From an implementation perspective, it matters because:
 
 - it keeps high continuity with existing 2.5 integrations
 - it matches the operational reality of SSP, DSP, and exchange integrations more closely
 - it allows more incremental migration paths
+- it creates a more practical path for modern concerns such as CTV, pod bidding, AdCOM alignment, and ID provenance work
 
 In that sense, 2.6 is not a rejection of the 3.0 vision. It is a more deployable expression of some of that vision.
 
@@ -63,6 +64,7 @@ In that sense, 2.6 is not a rejection of the 3.0 vision. It is a more deployable
 - OpenRTB 2.5 is the operational baseline.
 - OpenRTB 3.0 shows the architectural direction.
 - OpenRTB 2.6 is the more practical bridge for today's market.
+- Core fields such as `site`, `app`, `device`, `user`, `regs`, `pmp`, and `deal` are better taught as practical concern areas than as version-specific trivia.
 - Topics such as SSI, provenance, and cryptographic proof belong after that, in the handbook's lab section.
 
 ## Related Documents

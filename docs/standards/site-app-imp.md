@@ -31,6 +31,7 @@ flowchart TD
 
 - 광고 슬롯 또는 광고 기회를 표현한다.
 - banner, video, native 같은 포맷 정보와 연결된다.
+- 여기서의 `imp`는 request-side 객체이며, 실제 노출 이벤트인 `impression`과는 다르다.
 
 ### 2. `site`
 
@@ -49,3 +50,5 @@ flowchart TD
 ## 관련 문서
 
 - [ads.txt와 app-ads.txt 이해](/standards/ads-txt-and-app-ads-txt)
+- [OpenRTB 2.6 핵심 필수 · 권장 항목 한눈에 보기](/standards/openrtb-required-and-recommended)
+- [imp와 impression은 왜 다른가](/measurement/imp-vs-impression)

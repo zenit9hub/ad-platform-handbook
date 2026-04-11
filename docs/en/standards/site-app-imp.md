@@ -31,6 +31,7 @@ flowchart TD
 
 - represents the ad slot or opportunity
 - connects to banner, video, native, or other format definitions
+- this `imp` is a request-side object and is different from the runtime `impression` event
 
 ### 2. `site`
 
@@ -49,3 +50,5 @@ flowchart TD
 ## Related Documents
 
 - [Understanding ads.txt and app-ads.txt](/en/standards/ads-txt-and-app-ads-txt)
+- [OpenRTB 2.6 Required and Recommended Fields at a Glance](/en/standards/openrtb-required-and-recommended)
+- [Why imp and impression are different](/en/measurement/imp-vs-impression)

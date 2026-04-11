@@ -41,7 +41,7 @@ The publisher-defined ad slot or inventory position.
 
 ### `imp`
 
-The OpenRTB object that describes an individual ad opportunity.
+The OpenRTB object that describes an individual ad opportunity. It is different from the runtime `impression` event.
 
 ### `adm`
 
@@ -54,6 +54,10 @@ The XML-based standard commonly used for video ad delivery and tracking.
 ### Impression
 
 The counting unit that represents an ad being shown or becoming eligible to be shown.
+
+### Viewability
+
+The verification layer that checks whether an impression was meaningfully visible to the user.
 
 ### Quartile
 
@@ -79,4 +83,5 @@ The supply-chain object that explains how a bid request traveled through the sup
 
 - [Ad Request vs Bid Request](/en/fundamentals/ad-request-vs-bid-request)
 - [How to Read site, app, and imp](/en/standards/site-app-imp)
+- [Why imp and impression are different](/en/measurement/imp-vs-impression)
 - [Understanding sellers.json and schain](/en/measurement/sellers-json-and-schain)

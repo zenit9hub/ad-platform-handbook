@@ -14,7 +14,8 @@ description: "광고플랫폼의 공통 언어 역할을 하는 표준과 프로
 1. [ads.txt와 app-ads.txt 이해](/standards/ads-txt-and-app-ads-txt)
 2. [OpenRTB는 무엇인가](/standards/openrtb-overview)
 3. [site, app, imp 객체 읽는 법](/standards/site-app-imp)
-4. [OpenRTB 3.0은 왜 널리 확장되지 못했고 2.6은 왜 이어졌는가](/standards/openrtb-3-and-2-6)
+4. [OpenRTB 2.6 핵심 필수 · 권장 항목 한눈에 보기](/standards/openrtb-required-and-recommended)
+5. [OpenRTB 3.0이 지향한 것과 2.6에 다시 반영된 것](/standards/openrtb-3-and-2-6)
 
 ## 다음 카테고리
 

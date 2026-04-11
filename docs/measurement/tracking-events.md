@@ -15,6 +15,7 @@ description: "광고플랫폼의 주요 runtime 이벤트와 video 측정 기준
 - `click`은 사용자가 광고 상호작용을 수행했다는 이벤트다.
 - `quartile`은 video 광고 재생 진행률을 25%, 50%, 75%, 100% 기준으로 나눈 이벤트다.
 - `TrackingEvents`는 이러한 이벤트가 발생했을 때 호출할 tracking URL 집합을 뜻한다.
+- `imp`는 요청 객체이고, `impression`은 런타임 이벤트라는 점을 먼저 분리해서 이해해야 한다.
 
 ## 개념 흐름
 
@@ -40,6 +41,18 @@ flowchart LR
 - display에서는 creative가 렌더링되거나 viewable 상태에 들어가는 순간과 연결되는 경우가 많다.
 - video에서는 player가 광고 재생을 시작할 수 있는 상태가 된 시점과 연결되는 경우가 많다.
 - 다만 정확한 기준은 플랫폼, SDK, measurement vendor에 따라 조금씩 다를 수 있다.
+
+## 1-1. 요청과 노출은 다른 단계다
+
+|단계|주요 이벤트|주 책임 주체|
+|---|---|---|
+|요청|`imp` 생성|SSP 또는 ad server|
+|낙찰|`win notice`|SSP, DSP|
+|렌더링|creative render|SDK, player, WebView|
+|노출|`impression`|SDK, client tracker, player|
+|검증|viewability, verification|OMID, measurement vendor, SDK integration|
+
+이 표의 핵심은 `imp`가 이미 요청 단계에서 존재한다는 점이다. 반면 `impression`은 render 이후 노출로 기록되는 이벤트다.
 
 ## 2. click은 무엇을 뜻하는가
 
@@ -72,6 +85,7 @@ flowchart LR
 
 ## 관련 문서
 
+- [imp와 impression은 왜 다른가](/measurement/imp-vs-impression)
 - [adm 필드는 무엇을 담는가](/delivery/adm-field)
 - [Discrepancy와 Reconciliation 개요](/measurement/discrepancy-and-reconciliation)
 - [이벤트 로그 스키마 설계 기초](/implementation/event-log-schema)

@@ -15,6 +15,7 @@ This document explains the event terms and counting units that repeatedly appear
 - `click` represents user interaction with the ad.
 - `quartile` events divide video playback progress into 25%, 50%, 75%, and 100% milestones.
 - `TrackingEvents` refers to the tracking URL set tied to those runtime events.
+- `imp` is a request-side object, while `impression` is a runtime event, and that distinction should come first.
 
 ## Event Flow
 
@@ -40,6 +41,18 @@ flowchart LR
 - In display, it is often tied to creative render or a renderable state.
 - In video, it is often tied to the point where playback can begin.
 - The precise counting rule can vary by platform, SDK, or measurement vendor.
+
+## 1-1. Request and exposure are different stages
+
+|Stage|Main Event|Primary Owner|
+|---|---|---|
+|Request|`imp` creation|SSP or ad server|
+|Win|`win notice`|SSP, DSP|
+|Rendering|creative render|SDK, player, WebView|
+|Exposure|`impression`|SDK, client tracker, player|
+|Verification|viewability, verification|OMID, measurement vendor, SDK integration|
+
+The practical point is that `imp` already exists at request time, while `impression` is only recorded after render-time exposure logic runs.
 
 ## 2. What click means
 
@@ -72,6 +85,7 @@ flowchart LR
 
 ## Related Documents
 
+- [Why imp and impression are different](/en/measurement/imp-vs-impression)
 - [What Goes in the adm Field](/en/delivery/adm-field)
 - [Introduction to Discrepancy and Reconciliation](/en/measurement/discrepancy-and-reconciliation)
 - [Event Log Schema Basics](/en/implementation/event-log-schema)
