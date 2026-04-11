@@ -48,6 +48,7 @@ export default withMermaid(
                 { text: 'OpenRTB는 무엇인가', link: '/standards/openrtb-overview' },
                 { text: 'site, app, imp 객체 읽는 법', link: '/standards/site-app-imp' },
                 { text: 'OpenRTB 2.6 핵심 필수 · 권장 항목 한눈에 보기', link: '/standards/openrtb-required-and-recommended' },
+                { text: 'OpenRTB 상위 제어 필드 읽는 법', link: '/standards/top-level-control-fields' },
                 { text: 'OpenRTB 3.0이 지향한 것과 2.6에 다시 반영된 것', link: '/standards/openrtb-3-and-2-6' }
               ]
             },
@@ -149,6 +150,7 @@ export default withMermaid(
                 { text: 'What Is OpenRTB', link: '/en/standards/openrtb-overview' },
                 { text: 'How to Read site, app, and imp', link: '/en/standards/site-app-imp' },
                 { text: 'OpenRTB 2.6 Required and Recommended Fields at a Glance', link: '/en/standards/openrtb-required-and-recommended' },
+                { text: 'How to read OpenRTB top-level control fields', link: '/en/standards/top-level-control-fields' },
                 { text: 'What OpenRTB 3.0 aimed for and what returned in 2.6', link: '/en/standards/openrtb-3-and-2-6' }
               ]
             },

@@ -15,7 +15,8 @@ This category covers the standards and protocols that act as the shared language
 2. [What Is OpenRTB](/en/standards/openrtb-overview)
 3. [How to Read site, app, and imp](/en/standards/site-app-imp)
 4. [OpenRTB 2.6 Required and Recommended Fields at a Glance](/en/standards/openrtb-required-and-recommended)
-5. [What OpenRTB 3.0 aimed for and what returned in 2.6](/en/standards/openrtb-3-and-2-6)
+5. [How to read OpenRTB top-level control fields](/en/standards/top-level-control-fields)
+6. [What OpenRTB 3.0 aimed for and what returned in 2.6](/en/standards/openrtb-3-and-2-6)
 
 ## Next Category
 

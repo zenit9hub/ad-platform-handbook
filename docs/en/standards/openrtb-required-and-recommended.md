@@ -85,6 +85,7 @@ This document provides a compact table-based reference to the core objects and f
 ## Next Documents
 
 - [How to Read site, app, and imp](/en/standards/site-app-imp)
+- [How to read OpenRTB top-level control fields](/en/standards/top-level-control-fields)
 - [What OpenRTB 3.0 aimed for and what returned in 2.6](/en/standards/openrtb-3-and-2-6)
 
 ## Related Documents

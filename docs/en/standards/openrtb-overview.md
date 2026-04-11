@@ -57,6 +57,7 @@ flowchart LR
 
 - [How to Read site, app, and imp](/en/standards/site-app-imp)
 - [OpenRTB 2.6 Required and Recommended Fields at a Glance](/en/standards/openrtb-required-and-recommended)
+- [How to read OpenRTB top-level control fields](/en/standards/top-level-control-fields)
 - [What OpenRTB 3.0 aimed for and what returned in 2.6](/en/standards/openrtb-3-and-2-6)
 - [What Goes in the adm Field](/en/delivery/adm-field)
 
