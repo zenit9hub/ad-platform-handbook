@@ -49,6 +49,11 @@ export default withMermaid(
                 { text: 'site, app, imp 객체 읽는 법', link: '/standards/site-app-imp' },
                 { text: 'OpenRTB 2.6 핵심 필수 · 권장 항목 한눈에 보기', link: '/standards/openrtb-required-and-recommended' },
                 { text: 'OpenRTB 상위 제어 필드 읽는 법', link: '/standards/top-level-control-fields' },
+                { text: '구간별 프로토콜과 데이터 경계', link: '/standards/protocol-boundaries' },
+                { text: '광고주 · Agency ↔ DSP: 캠페인 제어 구간', link: '/standards/advertiser-agency-to-dsp' },
+                { text: 'DSP ↔ SSP / Exchange: RTB 경매 구간', link: '/standards/dsp-to-ssp-exchange' },
+                { text: 'SSP ↔ Publisher SDK / Player / Tag: 광고 전달 구간', link: '/standards/ssp-to-publisher-sdk' },
+                { text: 'SDK / Player ↔ Measurement / Verification: 런타임 이벤트 구간', link: '/standards/sdk-to-measurement-verification' },
                 { text: 'OpenRTB 3.0이 지향한 것과 2.6에 다시 반영된 것', link: '/standards/openrtb-3-and-2-6' }
               ]
             },
@@ -151,6 +156,11 @@ export default withMermaid(
                 { text: 'How to Read site, app, and imp', link: '/en/standards/site-app-imp' },
                 { text: 'OpenRTB 2.6 Required and Recommended Fields at a Glance', link: '/en/standards/openrtb-required-and-recommended' },
                 { text: 'How to read OpenRTB top-level control fields', link: '/en/standards/top-level-control-fields' },
+                { text: 'Protocol boundaries and data handoff by segment', link: '/en/standards/protocol-boundaries' },
+                { text: 'Advertiser · Agency ↔ DSP: campaign control segment', link: '/en/standards/advertiser-agency-to-dsp' },
+                { text: 'DSP ↔ SSP / Exchange: RTB auction segment', link: '/en/standards/dsp-to-ssp-exchange' },
+                { text: 'SSP ↔ Publisher SDK / Player / Tag: ad delivery segment', link: '/en/standards/ssp-to-publisher-sdk' },
+                { text: 'SDK / Player ↔ Measurement / Verification: runtime event segment', link: '/en/standards/sdk-to-measurement-verification' },
                 { text: 'What OpenRTB 3.0 aimed for and what returned in 2.6', link: '/en/standards/openrtb-3-and-2-6' }
               ]
             },

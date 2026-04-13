@@ -11,12 +11,25 @@ description: "광고플랫폼의 공통 언어 역할을 하는 표준과 프로
 
 ## 현재 문서
 
+### OpenRTB 핵심 구조와 필드
+
 1. [ads.txt와 app-ads.txt 이해](/standards/ads-txt-and-app-ads-txt)
 2. [OpenRTB는 무엇인가](/standards/openrtb-overview)
 3. [site, app, imp 객체 읽는 법](/standards/site-app-imp)
 4. [OpenRTB 2.6 핵심 필수 · 권장 항목 한눈에 보기](/standards/openrtb-required-and-recommended)
 5. [OpenRTB 상위 제어 필드 읽는 법](/standards/top-level-control-fields)
-6. [OpenRTB 3.0이 지향한 것과 2.6에 다시 반영된 것](/standards/openrtb-3-and-2-6)
+
+### 구간별 프로토콜과 데이터 경계
+
+6. [구간별 프로토콜과 데이터 경계](/standards/protocol-boundaries)
+7. [광고주 · Agency ↔ DSP: 캠페인 제어 구간](/standards/advertiser-agency-to-dsp)
+8. [DSP ↔ SSP / Exchange: RTB 경매 구간](/standards/dsp-to-ssp-exchange)
+9. [SSP ↔ Publisher SDK / Player / Tag: 광고 전달 구간](/standards/ssp-to-publisher-sdk)
+10. [SDK / Player ↔ Measurement / Verification: 런타임 이벤트 구간](/standards/sdk-to-measurement-verification)
+
+### 버전 진화와 표준 서사
+
+11. [OpenRTB 3.0이 지향한 것과 2.6에 다시 반영된 것](/standards/openrtb-3-and-2-6)
 
 ## 다음 카테고리
 

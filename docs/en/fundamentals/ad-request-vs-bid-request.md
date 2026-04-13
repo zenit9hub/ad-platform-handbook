@@ -54,3 +54,4 @@ flowchart LR
 
 - [Publisher Onboarding and Placement Registration](/en/fundamentals/publisher-onboarding)
 - [Understanding ads.txt and app-ads.txt](/en/standards/ads-txt-and-app-ads-txt)
+- [Protocol boundaries and data handoff by segment](/en/standards/protocol-boundaries)

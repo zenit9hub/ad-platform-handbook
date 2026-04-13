@@ -53,3 +53,4 @@ flowchart LR
 
 - [퍼블리셔 온보딩과 지면 등록](/fundamentals/publisher-onboarding)
 - [ads.txt와 app-ads.txt 이해](/standards/ads-txt-and-app-ads-txt)
+- [구간별 프로토콜과 데이터 경계](/standards/protocol-boundaries)
