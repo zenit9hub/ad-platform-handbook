@@ -29,12 +29,12 @@ flowchart LR
 
 ## 구간별 한눈에 보기
 
-|구간|주요 관심사|강한 표준 프로토콜|대표 데이터|
-|---|---|---|---|
-|광고주 · Agency ↔ DSP|캠페인 설정, 타기팅, 예산, 크리에이티브 운영|단일 범용 표준은 약함|campaign, line item, creative, audience, budget, goal|
-|DSP ↔ SSP / Exchange|경매, 입찰 판단, 가격, 크리에이티브 전달|OpenRTB|`id`, `imp`, `site/app`, `device`, `user`, `source`, `regs`, `price`, `adm`|
-|SSP ↔ Publisher SDK / Player / Tag|광고 요청, 광고 응답, creative/VAST 전달|단일 범용 표준은 약함, video에서 VAST 비중이 큼|placement, app/site context, VAST URL/XML, markup, tracker|
-|SDK / Player ↔ Measurement / Verification|노출, 클릭, 진행률, viewability, verification|VAST Tracking, OM SDK / OMID|impression, click, quartile, `AdVerifications`, OM session|
+| 구간                                        | 주요 관심사                                 | 강한 표준 프로토콜                       | 대표 데이터                                                                      |
+| ----------------------------------------- | -------------------------------------- | -------------------------------- | --------------------------------------------------------------------------- |
+| 광고주 · Agency ↔ DSP                        | 캠페인 설정, 타기팅, 예산, 크리에이티브 운영             | 단일 범용 표준은 약함                     | campaign, line item, creative, audience, budget, goal                       |
+| DSP ↔ SSP / Exchange                      | 경매, 입찰 판단, 가격, 크리에이티브 전달               | OpenRTB                          | `id`, `imp`, `site/app`, `device`, `user`, `source`, `regs`, `price`, `adm` |
+| SSP ↔ Publisher SDK / Player / Tag        | 광고 요청, 광고 응답, creative/VAST 전달         | 단일 범용 표준은 약함, video에서 VAST 비중이 큼 | placement, app/site context, VAST URL/XML, markup, tracker                  |
+| SDK / Player ↔ Measurement / Verification | 노출, 클릭, 진행률, viewability, verification | VAST Tracking, OM SDK / OMID     | impression, click, quartile, `AdVerifications`, OM session                  |
 
 ## 왜 이 구분이 중요한가
 
