@@ -18,7 +18,7 @@ This document explains what information and setup steps are typically required w
 ## Concept Flow
 
 ```mermaid
-flowchart LR
+flowchart TB
     A["Publisher"] --> B["Account Setup / Contract"]
     B --> C["Site / App Registration"]
     C --> D["Placement Registration"]
