@@ -20,7 +20,7 @@ This document explains the ad platform flow by `segment`, not just by `role`. Th
 ## Big Picture
 
 ```mermaid
-flowchart LR
+flowchart TB
     A["Advertiser / Agency"] -->|"Campaign setup\nTargeting / budget / creative"| B["DSP"]
     B -->|"OpenRTB Bid Request / Response"| C["SSP / Exchange"]
     C -->|"Ad Request / Ad Response\nVAST / markup / URL"| D["Publisher SDK / Player / Tag"]
