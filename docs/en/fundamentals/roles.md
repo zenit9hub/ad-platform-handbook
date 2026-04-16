@@ -13,24 +13,32 @@ This document clarifies the roles of the core players that are frequently confus
 
 - Publishers provide the inventory where ads are shown.
 - SSPs optimize monetization from the publisher side.
-- DSPs optimize media buying from the advertiser side.
 - Exchanges operate as a transaction layer between supply and demand.
+- DSPs optimize media buying from the advertiser side.
+- Advertisers define budget, targeting, and creative goals.
 
 ## Relationship Diagram
 
 ```mermaid
-flowchart LR
-    A["Publisher"] -->|"inventory / context"| B["SSP"]
-    B -->|"fill / reporting"| A
-    B -->|"supply request"| C["Exchange"]
-    C -->|"auction outcome / demand routing"| B
-    C -->|"bid request"| D["DSP"]
-    D -->|"bid response"| C
-    E["Advertiser"] -->|"budget / targeting / creative"| D
-    D -->|"delivery / performance report"| E
-```
+flowchart TB
+    subgraph SUPPLY["Supply Side"]
+        direction LR
+        P["Publisher"] <--> S["SSP"]
+    end
 
-This relationship is not a one-way chain. Supply-side context and requests move toward demand, while bid responses, fill results, and performance feedback move back in the opposite direction.
+    subgraph EXCHANGE["Exchange Layer"]
+        direction LR
+        X["AD-Ex"]
+    end
+
+    subgraph DEMAND["Demand Side"]
+        direction LR
+        D["DSP"] <--> A["Advertiser"]
+    end
+
+    SUPPLY <--> EXCHANGE
+    EXCHANGE <--> DEMAND
+```
 
 ## Draft Structure
 
@@ -44,15 +52,20 @@ This relationship is not a one-way chain. Supply-side context and requests move 
 - Optimizes monetization of publisher inventory.
 - Can manage floors, routing, prioritization, auction outcomes, and log collection.
 
-### 3. DSP
+### 3. Exchange
+
+- Acts as the transaction layer where demand and supply meet.
+- In practice, exchange and SSP responsibilities may overlap.
+
+### 4. DSP
 
 - Evaluates bidding opportunities based on advertiser goals and targeting conditions.
 - Determines whether to bid and how much to bid.
 
-### 4. Exchange
+### 5. Advertiser
 
-- Acts as the transaction layer where demand and supply meet.
-- In practice, exchange and SSP responsibilities may overlap.
+- Defines budget, campaign goals, and targeting conditions.
+- Decides through the DSP which audiences and inventory to buy.
 
 ## Common Misunderstandings
 

@@ -13,24 +13,32 @@ description: "광고플랫폼 핵심 플레이어의 역할을 구분한다."
 
 - 퍼블리셔는 광고가 노출되는 지면을 제공한다.
 - SSP는 퍼블리셔 관점에서 광고 지면 판매를 최적화한다.
-- DSP는 광고주 관점에서 광고 구매를 최적화한다.
 - Exchange는 양측을 연결하는 거래 레이어로 동작한다.
+- DSP는 광고주 관점에서 광고 구매를 최적화한다.
+- 광고주는 예산, 타기팅, 크리에이티브 목표를 정의한다.
 
 ## 역할 관계 도식
 
 ```mermaid
-flowchart LR
-    A["Publisher"] -->|"inventory / context"| B["SSP"]
-    B -->|"fill / reporting"| A
-    B -->|"supply request"| C["Exchange"]
-    C -->|"auction outcome / demand routing"| B
-    C -->|"bid request"| D["DSP"]
-    D -->|"bid response"| C
-    E["Advertiser"] -->|"budget / targeting / creative"| D
-    D -->|"delivery / performance report"| E
-```
+flowchart TB
+    subgraph SUPPLY["공급측"]
+        direction LR
+        P["퍼블리셔"] <--> S["SSP"]
+    end
 
-이 관계는 단순한 일방향 체인이 아니다. 공급측에서는 `inventory`, `context`, `request`가 수요측으로 흐르고, 반대 방향에서는 `bid response`, `fill`, `성과 데이터`, `리포트`가 돌아온다.
+    subgraph EXCHANGE["중간 거래 레이어"]
+        direction LR
+        X["AD-Ex"]
+    end
+
+    subgraph DEMAND["수요측"]
+        direction LR
+        D["DSP"] <--> A["광고주"]
+    end
+
+    SUPPLY <--> EXCHANGE
+    EXCHANGE <--> DEMAND
+```
 
 ## 본문 구조 초안
 
@@ -44,15 +52,20 @@ flowchart LR
 - 퍼블리셔 지면의 판매 효율을 높인다.
 - floor, 우선순위, 수요 연결, 낙찰 관리, 로그 집계를 담당할 수 있다.
 
-### 3. DSP
+### 3. Exchange
+
+- 수요와 공급이 거래되는 중간 레이어다.
+- 실제 시장에서는 SSP와 Exchange 기능이 일부 겹치기도 한다.
+
+### 4. DSP
 
 - 광고주의 예산과 타겟팅 조건에 따라 입찰을 수행한다.
 - 어떤 지면에 얼마를 제안할지 결정한다.
 
-### 4. Exchange
+### 5. 광고주
 
-- 수요와 공급이 거래되는 중간 레이어다.
-- 실제 시장에서는 SSP와 Exchange 기능이 일부 겹치기도 한다.
+- 예산, 캠페인 목표, 타기팅 조건을 정의한다.
+- DSP를 통해 어떤 오디언스와 지면에 광고를 집행할지 결정한다.
 
 ## 자주 생기는 오해
 
