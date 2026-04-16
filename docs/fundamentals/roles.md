@@ -20,11 +20,17 @@ description: "광고플랫폼 핵심 플레이어의 역할을 구분한다."
 
 ```mermaid
 flowchart LR
-    A["Publisher"] --> B["SSP"]
-    B --> C["Exchange"]
-    C --> D["DSP"]
-    D --> E["Advertiser"]
+    A["Publisher"] -->|"inventory / context"| B["SSP"]
+    B -->|"fill / reporting"| A
+    B -->|"supply request"| C["Exchange"]
+    C -->|"auction outcome / demand routing"| B
+    C -->|"bid request"| D["DSP"]
+    D -->|"bid response"| C
+    E["Advertiser"] -->|"budget / targeting / creative"| D
+    D -->|"delivery / performance report"| E
 ```
+
+이 관계는 단순한 일방향 체인이 아니다. 공급측에서는 `inventory`, `context`, `request`가 수요측으로 흐르고, 반대 방향에서는 `bid response`, `fill`, `성과 데이터`, `리포트`가 돌아온다.
 
 ## 본문 구조 초안
 

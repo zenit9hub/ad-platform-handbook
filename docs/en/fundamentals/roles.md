@@ -20,11 +20,17 @@ This document clarifies the roles of the core players that are frequently confus
 
 ```mermaid
 flowchart LR
-    A["Publisher"] --> B["SSP"]
-    B --> C["Exchange"]
-    C --> D["DSP"]
-    D --> E["Advertiser"]
+    A["Publisher"] -->|"inventory / context"| B["SSP"]
+    B -->|"fill / reporting"| A
+    B -->|"supply request"| C["Exchange"]
+    C -->|"auction outcome / demand routing"| B
+    C -->|"bid request"| D["DSP"]
+    D -->|"bid response"| C
+    E["Advertiser"] -->|"budget / targeting / creative"| D
+    D -->|"delivery / performance report"| E
 ```
+
+This relationship is not a one-way chain. Supply-side context and requests move toward demand, while bid responses, fill results, and performance feedback move back in the opposite direction.
 
 ## Draft Structure
 
