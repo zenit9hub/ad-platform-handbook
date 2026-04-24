@@ -47,6 +47,18 @@ OpenRTB request에서 개별 광고 기회를 설명하는 객체. 실제 노출
 
 낙찰 후 퍼블리셔 실행 환경이 렌더링할 creative markup 또는 참조 정보를 담는 응답 영역.
 
+### Audience Taxonomy
+
+오디언스나 관심사를 일관된 분류 체계로 정의한 taxonomy. OpenRTB에서는 보통 `user.data[].segment[]`의 segment ID가 이 taxonomy의 노드를 참조하는 방식으로 해석한다.
+
+### `user.data`
+
+OpenRTB에서 사용자 또는 오디언스 관련 추가 데이터를 전달하는 배열 구조.
+
+### `segment`
+
+OpenRTB `Data` 객체 안에서 오디언스, 관심사, 데이터 제공자 기준 분류 값을 표현하는 하위 객체.
+
 ### VAST
 
 video 광고 전달과 tracking을 설명하는 XML 기반 표준.
@@ -83,5 +95,6 @@ bid request가 어떤 공급 경로를 거쳐 왔는지 설명하는 supply chai
 
 - [광고 요청과 Bid Request의 차이](/fundamentals/ad-request-vs-bid-request)
 - [site, app, imp 객체 읽는 법](/standards/site-app-imp)
+- [오디언스 데이터와 taxonomy signaling](/standards/audience-taxonomy-signaling)
 - [imp와 impression은 왜 다른가](/measurement/imp-vs-impression)
 - [sellers.json과 schain 이해](/measurement/sellers-json-and-schain)

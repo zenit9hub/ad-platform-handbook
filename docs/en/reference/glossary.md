@@ -47,6 +47,18 @@ The OpenRTB object that describes an individual ad opportunity. It is different 
 
 The response field that carries creative markup or a renderable creative reference after the auction.
 
+### Audience Taxonomy
+
+A consistent classification system for audiences or interests. In OpenRTB, segment IDs in `user.data[].segment[]` are typically interpreted as nodes in that taxonomy.
+
+### `user.data`
+
+The OpenRTB array structure used to carry additional user or audience-related data.
+
+### `segment`
+
+The child object inside an OpenRTB `Data` object that represents audience, interest, or provider-defined classification values.
+
 ### VAST
 
 The XML-based standard commonly used for video ad delivery and tracking.
@@ -83,5 +95,6 @@ The supply-chain object that explains how a bid request traveled through the sup
 
 - [Ad Request vs Bid Request](/en/fundamentals/ad-request-vs-bid-request)
 - [How to Read site, app, and imp](/en/standards/site-app-imp)
+- [Audience data and taxonomy signaling](/en/standards/audience-taxonomy-signaling)
 - [Why imp and impression are different](/en/measurement/imp-vs-impression)
 - [Understanding sellers.json and schain](/en/measurement/sellers-json-and-schain)

@@ -71,6 +71,10 @@ This document provides a compact table-based reference to the core objects and f
 |`device.lmt`|Recommended|Very high|Limit Ad Tracking signal with strong practical impact.|
 |`user.id`|Recommended|High|Exchange-defined user identifier.|
 |`user.buyeruid`|Recommended|High|Buyer-mapped user identifier.|
+|`user.data[]`|Optional|High|Array of Data objects carrying user or audience data signals.|
+|`data.segment[]`|Optional|High|Segment array that can represent audience, interest, or taxonomy nodes.|
+|`segment.id`|Optional|High|Segment identifier used for matching, filtering, and reporting.|
+|`segment.name`|Optional|Medium|Human-readable display value. Logic should usually rely on `id`.|
 |`metric.type`|Required|Medium|The metric name, typically pre-agreed with bidders.|
 |`metric.value`|Required|Medium|The metric value. Probabilistic values should be in the 0.0 to 1.0 range.|
 |`metric.vendor`|Recommended|Medium|Describes the metric source.|
@@ -80,12 +84,14 @@ This document provides a compact table-based reference to the core objects and f
 - `site` and `app` are generally not used together. The channel context determines which one is primary.
 - In real SSP, DSP, and measurement integrations, many `recommended` fields are treated as practically essential.
 - Signals such as `source`, `regs`, `schain`, and ID provenance extend the trust layer beyond a narrow required-field checklist.
+- Internal labels such as `lvl1`, `lvl2`, and `lvl3` should not be exposed as external standard fields. They are safer to interpret through `user.data[].segment[]` and a taxonomy ID scheme.
 - This page should be read as a quick reference. For design or implementation review, it works best alongside the more detailed object-level documents.
 
 ## Next Documents
 
 - [How to Read site, app, and imp](/en/standards/site-app-imp)
 - [How to read OpenRTB top-level control fields](/en/standards/top-level-control-fields)
+- [Audience data and taxonomy signaling](/en/standards/audience-taxonomy-signaling)
 - [What OpenRTB 3.0 aimed for and what returned in 2.6](/en/standards/openrtb-3-and-2-6)
 
 ## Related Documents
