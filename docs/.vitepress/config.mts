@@ -1,12 +1,44 @@
 import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
+const githubRepository = 'zenit9hub/ad-platform-handbook'
+const githubPagesBase = '/ad-platform-handbook/'
+
+function normalizeBase(value: string): string {
+  const trimmed = value.trim()
+
+  if (trimmed === '' || trimmed === '/') {
+    return '/'
+  }
+
+  const withLeadingSlash = trimmed.startsWith('/') ? trimmed : `/${trimmed}`
+
+  return withLeadingSlash.endsWith('/') ? withLeadingSlash : `${withLeadingSlash}/`
+}
+
+function resolveBase(): string {
+  if (process.env.VITEPRESS_BASE) {
+    return normalizeBase(process.env.VITEPRESS_BASE)
+  }
+
+  if (
+    process.env.GITHUB_ACTIONS === 'true' &&
+    process.env.GITHUB_REPOSITORY === githubRepository
+  ) {
+    return githubPagesBase
+  }
+
+  return '/'
+}
+
+const siteBase = resolveBase()
+
 export default withMermaid(
   defineConfig({
     title: 'Ad Platform Handbook',
     description: '표준, 신뢰, 그리고 Web3',
     lang: 'ko-KR',
-    base: '/ad-platform-handbook/',
+    base: siteBase,
     head: [['meta', { name: 'theme-color', content: '#0f766e' }]],
     cleanUrls: true,
     sitemap: {
