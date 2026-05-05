@@ -1,8 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
-const githubRepository = 'zenit9hub/ad-platform-handbook'
-const githubPagesBase = '/ad-platform-handbook/'
+const siteOrigin = 'https://ad.lab.rezen.dev'
 
 function normalizeBase(value: string): string {
   const trimmed = value.trim()
@@ -21,14 +20,16 @@ function resolveBase(): string {
     return normalizeBase(process.env.VITEPRESS_BASE)
   }
 
-  if (
-    process.env.GITHUB_ACTIONS === 'true' &&
-    process.env.GITHUB_REPOSITORY === githubRepository
-  ) {
-    return githubPagesBase
-  }
-
   return '/'
+}
+
+function resolveCanonicalUrl(relativePath: string): string {
+  const cleanPath = relativePath
+    .replace(/(^|\/)index\.md$/, '$1')
+    .replace(/\.md$/, '')
+  const pathname = cleanPath === '' ? '/' : `/${cleanPath}`
+
+  return new URL(pathname, siteOrigin).href
 }
 
 const siteBase = resolveBase()
@@ -39,10 +40,21 @@ export default withMermaid(
     description: '표준, 신뢰, 그리고 Web3',
     lang: 'ko-KR',
     base: siteBase,
-    head: [['meta', { name: 'theme-color', content: '#0f766e' }]],
+    head: [
+      ['meta', { name: 'theme-color', content: '#0f766e' }],
+      ['meta', { property: 'og:site_name', content: 'Ad Platform Handbook' }]
+    ],
     cleanUrls: true,
     sitemap: {
-      hostname: 'https://zenit9hub.github.io/ad-platform-handbook/'
+      hostname: `${siteOrigin}/`
+    },
+    transformHead({ pageData }) {
+      const canonicalUrl = resolveCanonicalUrl(pageData.relativePath)
+
+      return [
+        ['link', { rel: 'canonical', href: canonicalUrl }],
+        ['meta', { property: 'og:url', content: canonicalUrl }]
+      ]
     },
     locales: {
       root: {
