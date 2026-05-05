@@ -3,3 +3,10 @@ node_modules
 dist
 .vitepress/cache
 .vitepress/temp
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
